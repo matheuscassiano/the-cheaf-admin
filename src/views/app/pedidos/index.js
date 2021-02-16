@@ -5,6 +5,7 @@ import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
 import Breadcrumb from '../../../containers/navs/Breadcrumb';
 import { OrdersContainer } from '../../../styled-components';
 import Order from '../../../styled-components/order';
+import { CardContentItem } from '../../../styled-components/order/styles';
 
 const BlankPage = ({ match }) => {
   return (
@@ -18,25 +19,186 @@ const BlankPage = ({ match }) => {
       <Row>
         <Colxx lg="12" className="mb-4">
           <OrdersContainer>
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
-            <Order status="ocupado" />
+            <Order title="1" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
+            <Order title="9" status="ocupado">
+              <CardContentItem>
+                <b>Atendente:</b>
+                <span>Carla Ferreira</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Cliente:</b>
+                <span>Matheus Luiz</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Status:</b>
+                <span>Ocupado</span>
+              </CardContentItem>
+              <CardContentItem>
+                <b>Total:</b>
+                <b>R$ 65.00</b>
+              </CardContentItem>
+            </Order>
           </OrdersContainer>
         </Colxx>
       </Row>
