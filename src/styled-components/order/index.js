@@ -1,12 +1,13 @@
 import React from 'react';
-import { Card, CardHeader } from './styles';
+import { Card, CardHeader, CardHeaderTitle, CardContent } from './styles';
 
-export default function Order() {
+export default function Order({ title, status, children }) {
   return (
     <Card>
-      <CardHeader>
-        <h1>Matheus</h1>
+      <CardHeader status={status}>
+        <CardHeaderTitle>{title}</CardHeaderTitle>
       </CardHeader>
+      <CardContent>{children}</CardContent>
     </Card>
   );
 }
