@@ -7,6 +7,7 @@ import {
   InputContainer,
   Input,
   OrdersContainer,
+  Label,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -210,17 +211,17 @@ const BlankPage = ({ match }) => {
       </Row>
       <LargeModal>
         <OrderInfo>
-          <h3>Mesa 12</h3>
+          <h2>Mesa 12</h2>
           <InputContainer>
-            <span>Selecione o atendente</span>
+            <Label>Selecione o atendente</Label>
             <Input placeholder="Atendente" />
           </InputContainer>
           <InputContainer>
-            <span>Selecione o cliente</span>
+            <Label>Selecione o cliente</Label>
             <Input placeholder="Buscar por cliente" />
           </InputContainer>
           <InputContainer>
-            <span>Observações</span>
+            <Label>Observações</Label>
             <Input placeholder="Observações" />
           </InputContainer>
         </OrderInfo>

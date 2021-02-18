@@ -17,8 +17,12 @@ export const InputContainer = styled.div`
 
 export const Input = styled.input`
   width: 100%;
-  padding: 0.8em 1em;
+  padding: 1em;
   border-radius: 1.3em;
   border: none;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+`;
+
+export const Label = styled.span`
+  padding-left: 1em;
 `;
