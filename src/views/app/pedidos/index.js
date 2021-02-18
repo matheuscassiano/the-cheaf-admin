@@ -3,7 +3,11 @@ import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
 import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
 import Breadcrumb from '../../../containers/navs/Breadcrumb';
-import { Input, OrdersContainer } from '../../../styled-components';
+import {
+  InputContainer,
+  Input,
+  OrdersContainer,
+} from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
 import { CardContentItem } from '../../../styled-components/order/styles';
@@ -207,8 +211,18 @@ const BlankPage = ({ match }) => {
       <LargeModal>
         <OrderInfo>
           <h3>Mesa 12</h3>
-          <span>sdasd</span>
-          <Input placeholder="Atendente" />
+          <InputContainer>
+            <span>Selecione o atendente</span>
+            <Input placeholder="Atendente" />
+          </InputContainer>
+          <InputContainer>
+            <span>Selecione o cliente</span>
+            <Input placeholder="Buscar por cliente" />
+          </InputContainer>
+          <InputContainer>
+            <span>Observações</span>
+            <Input placeholder="Observações" />
+          </InputContainer>
         </OrderInfo>
       </LargeModal>
     </>

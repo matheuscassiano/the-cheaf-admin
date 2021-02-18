@@ -11,6 +11,10 @@ export const OrdersContainer = styled.div`
   justify-content: space-between;
 `;
 
+export const InputContainer = styled.div`
+  margin: 1em 0;
+`;
+
 export const Input = styled.input`
   width: 100%;
   padding: 0.8em 1em;
