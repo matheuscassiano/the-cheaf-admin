@@ -10,3 +10,11 @@ export const OrdersContainer = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
+
+export const Input = styled.input`
+  width: 100%;
+  padding: 0.8em 1em;
+  border-radius: 1.3em;
+  border: none;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+`;
