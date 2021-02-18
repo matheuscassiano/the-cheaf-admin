@@ -4,6 +4,7 @@ import { Row } from 'reactstrap';
 import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
 import Breadcrumb from '../../../containers/navs/Breadcrumb';
 import { OrdersContainer } from '../../../styled-components';
+import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
 import { CardContentItem } from '../../../styled-components/order/styles';
 
@@ -202,6 +203,9 @@ const BlankPage = ({ match }) => {
           </OrdersContainer>
         </Colxx>
       </Row>
+      <LargeModal>
+        <h1>sad</h1>
+      </LargeModal>
     </>
   );
 };
