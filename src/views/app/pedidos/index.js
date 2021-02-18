@@ -204,7 +204,7 @@ const BlankPage = ({ match }) => {
         </Colxx>
       </Row>
       <LargeModal>
-        <h1>sad</h1>
+        <span>test</span>
       </LargeModal>
     </>
   );

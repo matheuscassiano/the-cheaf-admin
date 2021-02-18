@@ -15,18 +15,25 @@ export const ModalContainer = styled.div`
 `;
 
 export const ModalContent = styled.div`
-  width: min(90vw, 100em);
-  height: min(90vh, 70em);
+  width: min(90vw, 85em);
+  height: min(90vh, 55em);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   position: relative;
   border-radius: 3em;
   background-color: white;
 `;
 
 export const ModalClose = styled.div`
-  width: 5em;
-  height: 5em;
+  width: 3.5em;
+  height: 3.5em;
+  cursor: pointer;
   position: absolute;
+  top: 0;
   right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #de5753;
-  border-radius: 0 3em 0 3em;
+  border-radius: 0 2em 0 2em;
 `;
