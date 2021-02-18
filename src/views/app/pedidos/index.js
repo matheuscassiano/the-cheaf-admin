@@ -7,6 +7,7 @@ import { OrdersContainer } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
 import { CardContentItem } from '../../../styled-components/order/styles';
+import { OrderInfo } from './styles';
 
 const BlankPage = ({ match }) => {
   return (
@@ -204,7 +205,11 @@ const BlankPage = ({ match }) => {
         </Colxx>
       </Row>
       <LargeModal>
-        <span>test</span>
+        <OrderInfo>
+          <h3>Mesa 12</h3>
+          <span>sdasd</span>
+          <input />
+        </OrderInfo>
       </LargeModal>
     </>
   );
