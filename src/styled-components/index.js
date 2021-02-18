@@ -26,3 +26,14 @@ export const Input = styled.input`
 export const Label = styled.span`
   padding-left: 1em;
 `;
+
+export const Button = styled.button`
+  width: 100%;
+  padding: 0.8em 1em;
+  border-radius: 1.3em;
+  border: none;
+  background-color: #08af24;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+`;

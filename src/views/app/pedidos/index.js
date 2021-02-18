@@ -8,6 +8,7 @@ import {
   Input,
   OrdersContainer,
   Label,
+  Button,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -218,12 +219,13 @@ const BlankPage = ({ match }) => {
           </InputContainer>
           <InputContainer>
             <Label>Selecione o cliente</Label>
-            <Input placeholder="Buscar por cliente" />
+            <Input placeholder="&#128269;  Buscar por cliente" />
           </InputContainer>
           <InputContainer>
             <Label>Observações</Label>
             <Input placeholder="Observações" />
           </InputContainer>
+          <Button>oiu</Button>
         </OrderInfo>
       </LargeModal>
     </>
