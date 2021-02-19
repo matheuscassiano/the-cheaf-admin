@@ -9,6 +9,9 @@ import {
   OrdersContainer,
   Label,
   Button,
+  Table,
+  TH,
+  TD,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -227,6 +230,26 @@ const BlankPage = ({ match }) => {
           </InputContainer>
           <Button>oiu</Button>
         </OrderInfo>
+        <Table>
+          <tr>
+            <TH>Produtos</TH>
+            <TH>Quant.</TH>
+            <TH>Valor un.</TH>
+            <TH>Valor total</TH>
+            <TH>Tempo</TH>
+            <TH>Cozinha</TH>
+            <TH />
+          </tr>
+          <tr>
+            <TD>Picanha na Chapa com Fritas</TD>
+            <TD>3 Uns</TD>
+            <TD>R$ 3.00</TD>
+            <TD>R$ 9.00</TD>
+            <TD>00:25</TD>
+            <TD>------</TD>
+            <TD>------</TD>
+          </tr>
+        </Table>
       </LargeModal>
     </>
   );

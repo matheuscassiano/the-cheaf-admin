@@ -37,3 +37,17 @@ export const Button = styled.button`
   font-weight: bold;
   font-size: 1rem;
 `;
+
+export const Table = styled.table`
+  margin-top: 2rem;
+  border-spacing: 0 0.5rem;
+`;
+
+export const TH = styled.th`
+  padding: 1rem;
+  text-align: left;
+`;
+
+export const TD = styled.td`
+  padding: 1rem;
+`;
