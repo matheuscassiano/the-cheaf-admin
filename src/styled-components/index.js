@@ -38,11 +38,26 @@ export const Button = styled.button`
   font-size: 1rem;
 `;
 
+export const TableContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 3.5rem;
+  padding: 0 2em;
+`;
+
 export const Table = styled.table`
-  margin-top: 2rem;
+  width: 100%;
+  border-collapse: separate;
   border-spacing: 0 0.5rem;
 `;
 
+export const TR = styled.tr`
+  border-radius: 5px;
+  margin-bottom: 5em;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+`;
 export const TH = styled.th`
   padding: 1rem;
   text-align: left;
