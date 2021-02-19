@@ -14,6 +14,7 @@ import {
   TR,
   TH,
   TD,
+  Price,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -252,8 +253,12 @@ const BlankPage = ({ match }) => {
                 <span>+ Batata frita</span>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -300,8 +305,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD>
                 <svg
@@ -338,8 +347,12 @@ const BlankPage = ({ match }) => {
                 <span>+ Batata frita</span>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD>
                 <svg
@@ -372,8 +385,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -420,8 +437,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -468,8 +489,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -516,8 +541,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -564,8 +593,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>
@@ -612,8 +645,12 @@ const BlankPage = ({ match }) => {
                 <b>Picanha na Chapa com Fritas</b>
               </TD>
               <TD>3 Uns</TD>
-              <TD>R$ 3.00</TD>
-              <TD>R$ 9.00</TD>
+              <TD>
+                <Price>R$ 3.00</Price>
+              </TD>
+              <TD>
+                <Price>R$ 9.00</Price>
+              </TD>
               <TD>00:25</TD>
               <TD />
               <TD>

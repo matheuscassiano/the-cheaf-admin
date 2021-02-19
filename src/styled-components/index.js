@@ -68,3 +68,10 @@ export const TH = styled.th`
 export const TD = styled.td`
   padding: 1rem;
 `;
+
+export const Price = styled.p`
+  margin: 0;
+  padding: 0;
+  color: #608f5f;
+  font-weight: 700;
+`;
