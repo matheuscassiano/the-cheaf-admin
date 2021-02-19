@@ -22,6 +22,7 @@ export const ModalContent = styled.div`
   position: relative;
   border-radius: 3em;
   background-color: white;
+  overflow: hidden;
 `;
 
 export const ModalClose = styled.div`

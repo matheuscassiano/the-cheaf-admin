@@ -39,6 +39,8 @@ export const Button = styled.button`
 `;
 
 export const TableContainer = styled.div`
+  max-height: 100%;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
