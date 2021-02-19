@@ -20,7 +20,7 @@ export const ModalContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 2fr;
   position: relative;
-  border-radius: 3em;
+  border-radius: 2em;
   background-color: white;
   overflow: hidden;
 `;
