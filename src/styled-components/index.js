@@ -45,8 +45,8 @@ export const TableContainer = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  margin-top: 3.5rem;
   padding: 0 2em;
+  padding-top: 3.5rem;
 `;
 
 export const Table = styled.table`
