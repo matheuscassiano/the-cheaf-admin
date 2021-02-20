@@ -21,6 +21,7 @@ import {
   OrderList,
   OrderContent,
   FloatButton,
+  ModalSearch,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -691,7 +692,11 @@ const BlankPage = ({ match }) => {
             </Table>
           </TableContainer>
         ) : (
-          <></>
+          <>
+            <InputContainer>
+              <ModalSearch placeholder="&#128269;  Buscar por produtos" />
+            </InputContainer>
+          </>
         )}
 
         {moddalPage === 'order-list' ? (

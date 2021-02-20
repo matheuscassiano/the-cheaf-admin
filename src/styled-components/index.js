@@ -144,3 +144,8 @@ export const FloatButton = styled.button`
   background-color: ${(props) => props.color};
   box-shadow: 0 0 10px ${(props) => hexToShadow(props.color)};
 `;
+
+export const ModalSearch = styled(Input)`
+  width: calc(100% - 7em);
+  margin: 2.5em 2em;
+`;
