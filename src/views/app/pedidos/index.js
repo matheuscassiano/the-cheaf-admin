@@ -16,6 +16,8 @@ import {
   TH,
   TD,
   Price,
+  OrderList,
+  OrderContent,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -252,6 +254,28 @@ const BlankPage = ({ match }) => {
               <Input placeholder="Número Personalizado" />
             </InputContainer>
           </InputLineContainer>
+          <OrderList>
+            <OrderContent>
+              <span>Subtotal</span>
+              <Price>R$ 265.00</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <b>Total</b>
+              <Price>R$ 365.50</Price>
+            </OrderContent>
+          </OrderList>
           <Button>Pagamento</Button>
         </OrderInfo>
         <TableContainer>
