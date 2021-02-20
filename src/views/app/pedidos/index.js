@@ -28,6 +28,7 @@ import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
 import { CardContentItem } from '../../../styled-components/order/styles';
 import { OrderInfo } from './styles';
+import CategoryCard from '../../../styled-components/CategoryCard';
 
 const BlankPage = ({ match }) => {
   const [moddalPage, setModalPage] = useState('order-list');
@@ -696,7 +697,21 @@ const BlankPage = ({ match }) => {
           <>
             <InputContainer>
               <ModalSearch placeholder="&#128269;  Buscar por produtos" />
-              <ScrollHorizontal />
+              <ScrollHorizontal>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+              </ScrollHorizontal>
             </InputContainer>
           </>
         )}
