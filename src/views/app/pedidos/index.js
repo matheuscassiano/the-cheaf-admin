@@ -22,6 +22,7 @@ import {
   OrderContent,
   FloatButton,
   ModalSearch,
+  ScrollHorizontal,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -695,6 +696,7 @@ const BlankPage = ({ match }) => {
           <>
             <InputContainer>
               <ModalSearch placeholder="&#128269;  Buscar por produtos" />
+              <ScrollHorizontal />
             </InputContainer>
           </>
         )}

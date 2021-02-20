@@ -149,3 +149,7 @@ export const ModalSearch = styled(Input)`
   width: calc(100% - 7em);
   margin: 2.5em 2em;
 `;
+
+export const ScrollHorizontal = styled.div`
+  margin-left: 2em;
+`;
