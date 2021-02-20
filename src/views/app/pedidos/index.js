@@ -20,6 +20,7 @@ import {
   Price,
   OrderList,
   OrderContent,
+  FloatButton,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -687,6 +688,54 @@ const BlankPage = ({ match }) => {
             </TR>
           </Table>
         </TableContainer>
+        <FloatButton color="#FFB573" bottom="8em" right="2em">
+          <svg
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.8334 4.66699H4.66671C4.04787 4.66699 3.45438 4.91282 3.01679 5.35041C2.57921 5.78799 2.33337 6.38149 2.33337 7.00033V23.3337C2.33337 23.9525 2.57921 24.546 3.01679 24.9836C3.45438 25.4212 4.04787 25.667 4.66671 25.667H21C21.6189 25.667 22.2124 25.4212 22.65 24.9836C23.0875 24.546 23.3334 23.9525 23.3334 23.3337V15.167"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M21.5834 2.91628C22.0475 2.45215 22.677 2.19141 23.3334 2.19141C23.9898 2.19141 24.6192 2.45215 25.0834 2.91628C25.5475 3.38041 25.8083 4.0099 25.8083 4.66628C25.8083 5.32266 25.5475 5.95215 25.0834 6.41628L14 17.4996L9.33337 18.6663L10.5 13.9996L21.5834 2.91628Z"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </FloatButton>
+        <FloatButton color="#08AF24" bottom="2em" right="2em">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 6.66602V23.3327"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M6.66663 15H23.3333"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </FloatButton>
       </LargeModal>
     </>
   );
