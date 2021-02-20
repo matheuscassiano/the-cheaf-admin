@@ -57,10 +57,24 @@ export const Button = styled.button`
   padding: 0.8em 1em;
   border-radius: 1.3em;
   border: none;
-  background-color: #08af24;
+  background-color: ${(props) => props.color};
   color: white;
   font-weight: bold;
   font-size: 1rem;
+`;
+
+export const ButtonContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+`;
+export const MinButton = styled.button`
+  border: 0;
+  padding: 0.8em;
+  margin: 0 1em;
+  border-radius: 0.8em;
+  background-color: ${(props) => props.color};
 `;
 
 export const TableContainer = styled.div`
