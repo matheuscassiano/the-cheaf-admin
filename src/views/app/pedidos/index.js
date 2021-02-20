@@ -272,6 +272,26 @@ const BlankPage = ({ match }) => {
               <Price>R$ 26.50</Price>
             </OrderContent>
             <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
               <b>Total</b>
               <Price>R$ 365.50</Price>
             </OrderContent>
