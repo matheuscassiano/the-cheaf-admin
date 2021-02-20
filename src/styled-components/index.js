@@ -23,8 +23,33 @@ export const Input = styled.input`
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
 `;
 
+export const InputLineContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    width: calc(50% - 0.5em);
+    margin-top: 0;
+  }
+`;
+
 export const Label = styled.span`
   padding-left: 1em;
+`;
+
+export const OrderList = styled.section`
+  margin: 0.5em 0;
+`;
+
+export const OrderContent = styled.div`
+  font-size: 1rem;
+  padding-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+
+  b {
+    font-size: 1.2rem !important;
+  }
 `;
 
 export const Button = styled.button`

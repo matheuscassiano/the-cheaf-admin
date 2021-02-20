@@ -5,6 +5,7 @@ import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
 import Breadcrumb from '../../../containers/navs/Breadcrumb';
 import {
   InputContainer,
+  InputLineContainer,
   Input,
   OrdersContainer,
   Label,
@@ -15,6 +16,8 @@ import {
   TH,
   TD,
   Price,
+  OrderList,
+  OrderContent,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -231,6 +234,68 @@ const BlankPage = ({ match }) => {
             <Label>Observações</Label>
             <Input placeholder="Observações" />
           </InputContainer>
+          <InputLineContainer>
+            <InputContainer>
+              <Label>Número de pessoas</Label>
+              <Input placeholder="Número de pessoas" />
+            </InputContainer>
+            <InputContainer>
+              <Label>Número do Pedido</Label>
+              <Input placeholder="Número do Pedido" />
+            </InputContainer>
+          </InputLineContainer>
+          <InputLineContainer>
+            <InputContainer>
+              <Label>Tempo</Label>
+              <Input placeholder="Tempo" />
+            </InputContainer>
+            <InputContainer>
+              <Label>Número Personalizado</Label>
+              <Input placeholder="Número Personalizado" />
+            </InputContainer>
+          </InputLineContainer>
+          <OrderList>
+            <OrderContent>
+              <span>Subtotal</span>
+              <Price>R$ 265.00</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <span>Taxa de Serviço</span>
+              <Price>R$ 26.50</Price>
+            </OrderContent>
+            <OrderContent>
+              <b>Total</b>
+              <Price>R$ 365.50</Price>
+            </OrderContent>
+          </OrderList>
           <Button>Pagamento</Button>
         </OrderInfo>
         <TableContainer>
