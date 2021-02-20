@@ -4,6 +4,8 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
   width: 8em;
   height: 8em;
+  margin: 1em;
+  display: flex;
   border-radius: 1.5em;
   box-shadow: 0px 0px 10px rgba(45, 80, 120, 0.2);
 `;

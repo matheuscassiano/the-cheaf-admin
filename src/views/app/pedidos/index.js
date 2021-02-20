@@ -698,19 +698,21 @@ const BlankPage = ({ match }) => {
             <InputContainer>
               <ModalSearch placeholder="&#128269;  Buscar por produtos" />
               <ScrollHorizontal>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
+                <ScrollHorizontal>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                  <CategoryCard>span</CategoryCard>
+                </ScrollHorizontal>
               </ScrollHorizontal>
             </InputContainer>
           </>

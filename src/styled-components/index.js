@@ -151,5 +151,8 @@ export const ModalSearch = styled(Input)`
 `;
 
 export const ScrollHorizontal = styled.div`
-  margin-left: 2em;
+  max-width: 100%;
+  width: 50em;
+  display: flex;
+  overflow-x: auto;
 `;
