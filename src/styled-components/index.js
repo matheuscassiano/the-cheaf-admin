@@ -135,6 +135,7 @@ export const FloatButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 100%;
   position: absolute;
   top: ${(props) => props.top};
   right: ${(props) => props.right};
@@ -142,5 +143,4 @@ export const FloatButton = styled.button`
   left: ${(props) => props.left};
   background-color: ${(props) => props.color};
   box-shadow: 0 0 10px ${(props) => hexToShadow(props.color)};
-  border-radius: 100%;
 `;
