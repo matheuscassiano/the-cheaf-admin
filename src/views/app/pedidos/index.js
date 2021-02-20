@@ -5,6 +5,7 @@ import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
 import Breadcrumb from '../../../containers/navs/Breadcrumb';
 import {
   InputContainer,
+  InputLineContainer,
   Input,
   OrdersContainer,
   Label,
@@ -231,6 +232,26 @@ const BlankPage = ({ match }) => {
             <Label>Observações</Label>
             <Input placeholder="Observações" />
           </InputContainer>
+          <InputLineContainer>
+            <InputContainer>
+              <Label>Número de pessoas</Label>
+              <Input placeholder="Número de pessoas" />
+            </InputContainer>
+            <InputContainer>
+              <Label>Número do Pedido</Label>
+              <Input placeholder="Número do Pedido" />
+            </InputContainer>
+          </InputLineContainer>
+          <InputLineContainer>
+            <InputContainer>
+              <Label>Tempo</Label>
+              <Input placeholder="Tempo" />
+            </InputContainer>
+            <InputContainer>
+              <Label>Número Personalizado</Label>
+              <Input placeholder="Número Personalizado" />
+            </InputContainer>
+          </InputLineContainer>
           <Button>Pagamento</Button>
         </OrderInfo>
         <TableContainer>
