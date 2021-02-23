@@ -22,13 +22,13 @@ import {
   OrderContent,
   FloatButton,
   ModalSearch,
-  ScrollHorizontal,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
 import { CardContentItem } from '../../../styled-components/order/styles';
 import { OrderInfo } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
+import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 
 const BlankPage = ({ match }) => {
   const [moddalPage, setModalPage] = useState('order-list');
@@ -695,26 +695,25 @@ const BlankPage = ({ match }) => {
           </TableContainer>
         ) : (
           <>
-            <InputContainer>
-              <ModalSearch placeholder="&#128269;  Buscar por produtos" />
-              <ScrollHorizontal>
-                <ScrollHorizontal>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                  <CategoryCard>span</CategoryCard>
-                </ScrollHorizontal>
-              </ScrollHorizontal>
-            </InputContainer>
+            <div>
+              <InputContainer>
+                <ModalSearch placeholder="&#128269;  Buscar por produtos" />
+              </InputContainer>
+              <HorizontalScroll>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+                <CategoryCard>span</CategoryCard>
+              </HorizontalScroll>
+            </div>
           </>
         )}
 
