@@ -8,6 +8,6 @@ export const ItemsWrapper = styled.div`
 
 export const Items = styled.div`
   display: flex;
-  padding-left: 1em;
+  padding: 1em;
   overflow-x: auto;
 `;

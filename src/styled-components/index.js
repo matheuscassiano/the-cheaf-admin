@@ -147,5 +147,22 @@ export const FloatButton = styled.button`
 
 export const ModalSearch = styled(Input)`
   width: calc(100% - 7em);
-  margin: 2.5em 2em;
+  margin: 2.5em 2em 1em;
+`;
+
+export const OrderCard = styled.div`
+  width: 120px;
+  min-height: 120px;
+  margin: 1em 0;
+  border-radius: 1em;
+  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
+`;
+
+export const CardList = styled.div`
+  height: 480px;
+  padding: 2em 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-y: auto;
 `;

@@ -22,6 +22,8 @@ import {
   OrderContent,
   FloatButton,
   ModalSearch,
+  OrderCard,
+  CardList,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
@@ -695,10 +697,8 @@ const BlankPage = ({ match }) => {
           </TableContainer>
         ) : (
           <>
-            <div>
-              <InputContainer>
-                <ModalSearch placeholder="&#128269;  Buscar por produtos" />
-              </InputContainer>
+            <InputContainer>
+              <ModalSearch placeholder="&#128269;  Buscar por produtos" />
               <HorizontalScroll>
                 <CategoryCard>span</CategoryCard>
                 <CategoryCard>span</CategoryCard>
@@ -711,9 +711,40 @@ const BlankPage = ({ match }) => {
                 <CategoryCard>span</CategoryCard>
                 <CategoryCard>span</CategoryCard>
                 <CategoryCard>span</CategoryCard>
-                <CategoryCard>span</CategoryCard>
               </HorizontalScroll>
-            </div>
+              <CardList>
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+                <OrderCard />
+              </CardList>
+            </InputContainer>
           </>
         )}
 
