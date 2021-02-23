@@ -16,7 +16,7 @@ export const ModalContainer = styled.div`
 
 export const ModalContent = styled.div`
   width: min(90vw, 85em);
-  height: min(90vh, 55em);
+  height: min(90vh, 60em);
   display: grid;
   grid-template-columns: 1fr 2fr;
   position: relative;
