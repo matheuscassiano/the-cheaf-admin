@@ -22,6 +22,7 @@ import {
   OrderContent,
   FloatButton,
   ModalSearch,
+  ModalFooter,
   OrderCard,
   CardList,
 } from '../../../styled-components';
@@ -744,6 +745,14 @@ const BlankPage = ({ match }) => {
                 <OrderCard />
                 <OrderCard />
               </CardList>
+              <ModalFooter>
+                <span>
+                  Itens adicionados: <b>1</b>
+                </span>
+                <span>
+                  Subtotal: <Price>R$ 50.00</Price>
+                </span>
+              </ModalFooter>
             </InputContainer>
           </>
         )}

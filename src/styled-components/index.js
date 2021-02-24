@@ -122,7 +122,7 @@ export const TD = styled.td`
   padding: 1rem;
 `;
 
-export const Price = styled.p`
+export const Price = styled.span`
   margin: 0;
   padding: 0;
   color: #608f5f;
@@ -150,6 +150,15 @@ export const ModalSearch = styled(Input)`
   margin: 2.5em 2em 1em;
 `;
 
+export const ModalFooter = styled.div`
+  height: 4.2em;
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
+`;
+
 export const OrderCard = styled.div`
   width: 120px;
   min-height: 120px;
@@ -160,7 +169,8 @@ export const OrderCard = styled.div`
 
 export const CardList = styled.div`
   height: 480px;
-  padding: 2em 1em;
+  padding: 1em 2em;
+  padding-bottom: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
