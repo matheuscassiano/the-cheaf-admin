@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-  width: 26.5em;
+  width: 21em;
   min-height: 15em;
   margin-bottom: 2em;
   border-radius: 2em;
@@ -12,7 +12,7 @@ export const Card = styled.div`
 `;
 
 export const CardHeader = styled.div`
-  height: 4rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@ export const CardHeader = styled.div`
 export const CardHeaderTitle = styled.h6`
   margin: 0;
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 `;
 
@@ -36,6 +36,5 @@ export const CardContent = styled.ul`
 export const CardContentItem = styled.li`
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
   margin-bottom: 1em;
 `;

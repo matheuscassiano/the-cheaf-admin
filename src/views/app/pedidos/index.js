@@ -34,7 +34,7 @@ import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 
 const BlankPage = ({ match }) => {
-  const [modalActive, setModalActive] = useState(true);
+  const [modalActive, setModalActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
