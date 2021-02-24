@@ -34,7 +34,8 @@ import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 
 const BlankPage = ({ match }) => {
-  const [moddalPage, setModalPage] = useState('order-list');
+  const [modalActive, setModalActive] = useState(true);
+  const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
       <Row>
@@ -229,7 +230,7 @@ const BlankPage = ({ match }) => {
           </OrdersContainer>
         </Colxx>
       </Row>
-      <LargeModal show={false}>
+      <LargeModal active={modalActive} setActive={setModalActive}>
         <OrderInfo>
           <h2>Mesa 12</h2>
           <InputContainer>
@@ -390,7 +391,7 @@ const BlankPage = ({ match }) => {
             </MinButton>
           </ButtonContainer>
         </OrderInfo>
-        {moddalPage === 'order-list' ? (
+        {modalPage === 'order-list' ? (
           <TableContainer>
             <Table>
               <TR>
@@ -752,7 +753,7 @@ const BlankPage = ({ match }) => {
           </>
         )}
 
-        {moddalPage === 'order-list' ? (
+        {modalPage === 'order-list' ? (
           <>
             <FloatButton color="#FFB573" bottom="7.3em" right="2em">
               <svg
