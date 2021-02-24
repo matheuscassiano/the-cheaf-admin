@@ -1,11 +1,11 @@
 import React from 'react';
 import { ModalContainer, ModalContent, ModalClose } from './styles';
 
-export default function LargeModal({ children, active }) {
+export default function LargeModal({ children, active, setActive }) {
   return (
     <ModalContainer active={active}>
       <ModalContent>
-        <ModalClose>
+        <ModalClose onClick={() => setActive(false)}>
           <svg
             width="20"
             height="20"
