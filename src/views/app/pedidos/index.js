@@ -739,11 +739,6 @@ const BlankPage = ({ match }) => {
                 <OrderCard />
                 <OrderCard />
                 <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
               </CardList>
               <ModalFooter>
                 <span>

@@ -152,7 +152,7 @@ export const ModalSearch = styled(Input)`
 
 export const ModalFooter = styled.div`
   height: 4.2em;
-  padding: 0 2em;
+  padding: 0 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
