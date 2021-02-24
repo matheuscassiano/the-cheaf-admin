@@ -229,7 +229,7 @@ const BlankPage = ({ match }) => {
           </OrdersContainer>
         </Colxx>
       </Row>
-      <LargeModal>
+      <LargeModal show={false}>
         <OrderInfo>
           <h2>Mesa 12</h2>
           <InputContainer>

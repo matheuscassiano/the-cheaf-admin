@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const ModalContainer = styled.div`
   width: 100%;
   height: 100vh;
-  display: flex;
+  display: ${({ show }) => (show ? 'flex' : 'none')};
   align-items: center;
   justify-content: center;
   position: fixed;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { ModalContainer, ModalContent, ModalClose } from './styles';
 
-export default function LargeModal({ children }) {
+export default function LargeModal({ children, show }) {
   return (
-    <ModalContainer>
+    <ModalContainer show={show}>
       <ModalContent>
         <ModalClose>
           <svg
