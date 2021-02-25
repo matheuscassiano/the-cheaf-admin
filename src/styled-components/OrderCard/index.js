@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Content, Cover, Title, Footer, Type } from './styles';
 import { Price } from '..';
 
 export default function OrderCard({ cover, title, type, price }) {
+  const [active, setActive] = useState(false);
+
   return (
-    <Container>
+    <Container active={active} onClick={() => setActive(!active)}>
       <Cover src={cover} />
       <Content>
         <Title>{title}</Title>

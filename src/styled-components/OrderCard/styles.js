@@ -4,9 +4,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 12em;
   margin: 1em 0;
-  border-radius: 1.5em;
-  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
+  cursor: pointer;
   overflow: hidden;
+  border: ${({ active }) => (active ? ' 3px solid green' : 'none')};
+  border-radius: 2em;
+  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 
 export const Content = styled.div`
