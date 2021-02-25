@@ -1,7 +1,7 @@
 import React from 'react';
 import { ModalContainer, ModalContent, ModalClose, ModalTitle } from './styles';
 
-export default function SmallModal({ children, active, setActive }) {
+export default function SmallModal({ children, active, setActive, title }) {
   return (
     <ModalContainer active={active}>
       <ModalContent>
@@ -29,7 +29,7 @@ export default function SmallModal({ children, active, setActive }) {
             />
           </svg>
         </ModalClose>
-        <ModalTitle>Excluir pedido</ModalTitle>
+        <ModalTitle>{title}</ModalTitle>
         {children}
       </ModalContent>
     </ModalContainer>

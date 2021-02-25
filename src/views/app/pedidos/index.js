@@ -293,7 +293,10 @@ const BlankPage = ({ match }) => {
           </OrderList>
           <Button color="#08af24">Pagamento</Button>
           <ButtonContainer>
-            <MinButton color="#CE6F64">
+            <MinButton
+              color="#CE6F64"
+              onClick={() => setSmallModalActive(true)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -927,8 +930,18 @@ const BlankPage = ({ match }) => {
           <Label>Por qual motivo está excluindo o pedido?</Label>
           <TextArea />
           <ButtonContainer>
-            <MidButton color="#08AF24">Cancelar </MidButton>
-            <MidButton color="#CE6F64">Excluir</MidButton>
+            <MidButton
+              color="#08AF24"
+              onClick={() => setSmallModalActive(false)}
+            >
+              Cancelar{' '}
+            </MidButton>
+            <MidButton
+              color="#CE6F64"
+              onClick={() => setSmallModalActive(false)}
+            >
+              Excluir
+            </MidButton>
           </ButtonContainer>
         </SmallModal>
       </LargeModal>
