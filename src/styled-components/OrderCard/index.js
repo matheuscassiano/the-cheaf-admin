@@ -7,7 +7,7 @@ export default function OrderCard({ cover, title, type, price }) {
 
   return (
     <Container active={active} onClick={() => setActive(!active)}>
-      <Cover src={cover} />
+      <Cover draggable="false" src={cover} />
       <Content>
         <Title>{title}</Title>
         <Footer>
