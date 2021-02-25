@@ -26,15 +26,18 @@ import {
   CardList,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
+import SmallModal from '../../../styled-components/small-modal';
 import Order from '../../../styled-components/order';
 import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
 import { OrderInfo } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
+import { TextArea } from '../../../styled-components/small-modal/styles';
 
 const BlankPage = ({ match }) => {
   const [modalActive, setModalActive] = useState(false);
+  const [smallModalActive, setSmallModalActive] = useState(true);
   const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
@@ -919,6 +922,16 @@ const BlankPage = ({ match }) => {
         ) : (
           <></>
         )}
+        <SmallModal active={smallModalActive} setActive={setSmallModalActive}>
+          <sapn>Por qual motivo está excluindo o pedido?</sapn>
+          <TextArea />
+          <InputContainer>
+            <InputLineContainer>
+              <Button color="#08AF24">Cancelar </Button>
+              <Button color="#CE6F64">Excluir</Button>
+            </InputLineContainer>
+          </InputContainer>
+        </SmallModal>
       </LargeModal>
     </>
   );
