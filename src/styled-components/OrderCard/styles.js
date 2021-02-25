@@ -9,10 +9,15 @@ export const Container = styled.div`
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 
-export const Cover = styled.div``;
+export const Content = styled.div``;
+
+export const Cover = styled.img``;
 
 export const Title = styled.div``;
 
-export const Footer = styled.div``;
+export const Footer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 
 export const Type = styled.div``;
