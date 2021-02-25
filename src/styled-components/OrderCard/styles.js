@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 12em;
-  margin: 1em 0;
+  margin: 0.5em;
   cursor: pointer;
   overflow: hidden;
   border: ${({ active }) => (active ? '2px solid #08AF24' : 'none')};

@@ -164,7 +164,8 @@ export const CardList = styled.div`
   padding: 1em 2em;
   padding-bottom: 0;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   overflow-y: auto;
 `;
