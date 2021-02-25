@@ -38,7 +38,7 @@ import { TextArea } from '../../../styled-components/small-modal/styles';
 
 const BlankPage = ({ match }) => {
   const [modalActive, setModalActive] = useState(false);
-  const [smallModalActive, setSmallModalActive] = useState(true);
+  const [smallModalActive, setSmallModalActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
