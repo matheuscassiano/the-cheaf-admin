@@ -91,6 +91,11 @@ export const MinButton = styled.button`
   background-color: ${(props) => props.color};
 `;
 
+export const MidButton = styled(Button)`
+  width: 10em;
+  margin: 0 0.5em;
+`;
+
 export const TableContainer = styled.div`
   max-height: 100%;
   overflow-y: auto;

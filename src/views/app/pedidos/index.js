@@ -12,6 +12,7 @@ import {
   Button,
   ButtonContainer,
   MinButton,
+  MidButton,
   TableContainer,
   Table,
   TR,
@@ -923,14 +924,12 @@ const BlankPage = ({ match }) => {
           <></>
         )}
         <SmallModal active={smallModalActive} setActive={setSmallModalActive}>
-          <sapn>Por qual motivo está excluindo o pedido?</sapn>
+          <Label>Por qual motivo está excluindo o pedido?</Label>
           <TextArea />
-          <InputContainer>
-            <InputLineContainer>
-              <Button color="#08AF24">Cancelar </Button>
-              <Button color="#CE6F64">Excluir</Button>
-            </InputLineContainer>
-          </InputContainer>
+          <ButtonContainer>
+            <MidButton color="#08AF24">Cancelar </MidButton>
+            <MidButton color="#CE6F64">Excluir</MidButton>
+          </ButtonContainer>
         </SmallModal>
       </LargeModal>
     </>
