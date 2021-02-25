@@ -42,7 +42,10 @@ const BlankPage = () => {
   return (
     <>
       <Row>
-        <Colxx xxs="12" />
+        <Colxx xxs="12">
+          <h2>Digite um número + Enter</h2>
+          <Input placeholder="Pesquisar por nome" />
+        </Colxx>
       </Row>
       <Row>
         <Colxx lg="12" className="mb-4">
