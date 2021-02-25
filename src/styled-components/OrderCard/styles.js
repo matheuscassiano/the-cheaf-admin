@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin: 1em 0;
   cursor: pointer;
   overflow: hidden;
-  border: ${({ active }) => (active ? '3px solid #08AF24' : 'none')};
+  border: ${({ active }) => (active ? '2px solid #08AF24' : 'none')};
   border-radius: 2em;
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
