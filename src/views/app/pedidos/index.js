@@ -22,6 +22,7 @@ import {
   OrderContent,
   FloatButton,
   ModalSearch,
+  ModalFooter,
   OrderCard,
   CardList,
 } from '../../../styled-components';
@@ -33,7 +34,8 @@ import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 
 const BlankPage = ({ match }) => {
-  const [moddalPage, setModalPage] = useState('order-list');
+  const [modalActive, setModalActive] = useState(false);
+  const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
       <Row>
@@ -228,7 +230,7 @@ const BlankPage = ({ match }) => {
           </OrdersContainer>
         </Colxx>
       </Row>
-      <LargeModal>
+      <LargeModal active={modalActive} setActive={setModalActive}>
         <OrderInfo>
           <h2>Mesa 12</h2>
           <InputContainer>
@@ -389,7 +391,7 @@ const BlankPage = ({ match }) => {
             </MinButton>
           </ButtonContainer>
         </OrderInfo>
-        {moddalPage === 'order-list' ? (
+        {modalPage === 'order-list' ? (
           <TableContainer>
             <Table>
               <TR>
@@ -738,17 +740,20 @@ const BlankPage = ({ match }) => {
                 <OrderCard />
                 <OrderCard />
                 <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
               </CardList>
+              <ModalFooter>
+                <span>
+                  Itens adicionados: <b>1</b>
+                </span>
+                <span>
+                  Subtotal: <Price>R$ 50.00</Price>
+                </span>
+              </ModalFooter>
             </InputContainer>
           </>
         )}
 
-        {moddalPage === 'order-list' ? (
+        {modalPage === 'order-list' ? (
           <>
             <FloatButton color="#FFB573" bottom="7.3em" right="2em">
               <svg
