@@ -2,22 +2,36 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 120px;
-  min-height: 120px;
+  width: 12em;
   margin: 1em 0;
-  border-radius: 1em;
+  border-radius: 1.5em;
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
+  overflow: hidden;
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  padding: 0.5em 0.8em;
+`;
 
-export const Cover = styled.img``;
+export const Cover = styled.img`
+  width: 100%;
+  object-fit: cover;
+`;
 
-export const Title = styled.div``;
+export const Title = styled.h3`
+  font-size: 0.8rem;
+  margin: 0;
+`;
 
-export const Footer = styled.div`
+export const Footer = styled.footer`
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  font-size: 0.8rem;
+  margin-top: 0.5em;
 `;
 
-export const Type = styled.div``;
+export const Type = styled.span`
+  font-weight: bold;
+  font-size: 0.75rem;
+`;
