@@ -23,11 +23,11 @@ import {
   FloatButton,
   ModalSearch,
   ModalFooter,
-  OrderCard,
   CardList,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import Order from '../../../styled-components/order';
+import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
 import { OrderInfo } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';

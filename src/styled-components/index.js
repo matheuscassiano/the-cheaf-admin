@@ -159,14 +159,6 @@ export const ModalFooter = styled.div`
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 
-export const OrderCard = styled.div`
-  width: 120px;
-  min-height: 120px;
-  margin: 1em 0;
-  border-radius: 1em;
-  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
-`;
-
 export const CardList = styled.div`
   height: 480px;
   padding: 1em 2em;
