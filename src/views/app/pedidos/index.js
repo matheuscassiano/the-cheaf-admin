@@ -715,31 +715,31 @@ const BlankPage = ({ match }) => {
                 <CategoryCard>span</CategoryCard>
               </HorizontalScroll>
               <CardList>
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
-                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
+                <OrderCard title="Picanha na chapa com fritas" type="carne" />
               </CardList>
               <ModalFooter>
                 <span>
