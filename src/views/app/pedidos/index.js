@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
-import { Colxx, Separator } from '../../../components/common/CustomBootstrap';
-import Breadcrumb from '../../../containers/navs/Breadcrumb';
+import { Colxx } from '../../../components/common/CustomBootstrap';
 import {
   InputContainer,
   InputLineContainer,
@@ -36,16 +35,16 @@ import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
 
-const BlankPage = ({ match }) => {
+const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
-  const [smallModalActive, setSmallModalActive] = useState(true);
+  const [smallModalActive, setSmallModalActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
       <Row>
         <Colxx xxs="12">
-          <Breadcrumb heading="Pedidos das Mesas" match={match} />
-          <Separator className="mb-5" />
+          <h2>Digite um número + Enter</h2>
+          <Input placeholder="Pesquisar por nome" />
         </Colxx>
       </Row>
       <Row>
