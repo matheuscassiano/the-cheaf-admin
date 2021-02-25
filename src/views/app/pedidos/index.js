@@ -12,6 +12,7 @@ import {
   Button,
   ButtonContainer,
   MinButton,
+  MidButton,
   TableContainer,
   Table,
   TR,
@@ -23,31 +24,34 @@ import {
   FloatButton,
   ModalSearch,
   ModalFooter,
-  OrderCard,
   CardList,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
+import SmallModal from '../../../styled-components/small-modal';
 import Order from '../../../styled-components/order';
+import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
 import { OrderInfo } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
+import { TextArea } from '../../../styled-components/small-modal/styles';
 
 const BlankPage = ({ match }) => {
   const [modalActive, setModalActive] = useState(false);
+  const [smallModalActive, setSmallModalActive] = useState(true);
   const [modalPage, setModalPage] = useState('order-list');
   return (
     <>
       <Row>
         <Colxx xxs="12">
-          <Breadcrumb heading="menu.default" match={match} />
+          <Breadcrumb heading="Pedidos das Mesas" match={match} />
           <Separator className="mb-5" />
         </Colxx>
       </Row>
       <Row>
         <Colxx lg="12" className="mb-4">
           <OrdersContainer>
-            <Order title="1" status="ocupado">
+            <Order title="1" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -65,7 +69,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -83,7 +87,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -101,7 +105,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -119,7 +123,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -137,7 +141,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -155,7 +159,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -173,7 +177,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -191,7 +195,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -209,7 +213,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -289,7 +293,10 @@ const BlankPage = ({ match }) => {
           </OrderList>
           <Button color="#08af24">Pagamento</Button>
           <ButtonContainer>
-            <MinButton color="#CE6F64">
+            <MinButton
+              color="#CE6F64"
+              onClick={() => setSmallModalActive(true)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -715,31 +722,138 @@ const BlankPage = ({ match }) => {
                 <CategoryCard>span</CategoryCard>
               </HorizontalScroll>
               <CardList>
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
+                <OrderCard
+                  cover="/assets/img/orders/order.png"
+                  title="Picanha na chapa com fritas"
+                  type="Carnes"
+                  price="R$ 60.00"
+                />
               </CardList>
               <ModalFooter>
                 <span>
@@ -812,6 +926,24 @@ const BlankPage = ({ match }) => {
         ) : (
           <></>
         )}
+        <SmallModal active={smallModalActive} setActive={setSmallModalActive}>
+          <Label>Por qual motivo está excluindo o pedido?</Label>
+          <TextArea />
+          <ButtonContainer>
+            <MidButton
+              color="#08AF24"
+              onClick={() => setSmallModalActive(false)}
+            >
+              Cancelar{' '}
+            </MidButton>
+            <MidButton
+              color="#CE6F64"
+              onClick={() => setSmallModalActive(false)}
+            >
+              Excluir
+            </MidButton>
+          </ButtonContainer>
+        </SmallModal>
       </LargeModal>
     </>
   );

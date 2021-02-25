@@ -91,6 +91,11 @@ export const MinButton = styled.button`
   background-color: ${(props) => props.color};
 `;
 
+export const MidButton = styled(Button)`
+  width: 10em;
+  margin: 0 0.5em;
+`;
+
 export const TableContainer = styled.div`
   max-height: 100%;
   overflow-y: auto;
@@ -159,20 +164,13 @@ export const ModalFooter = styled.div`
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 
-export const OrderCard = styled.div`
-  width: 120px;
-  min-height: 120px;
-  margin: 1em 0;
-  border-radius: 1em;
-  box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
-`;
-
 export const CardList = styled.div`
   height: 480px;
   padding: 1em 2em;
   padding-bottom: 0;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   overflow-y: auto;
 `;
