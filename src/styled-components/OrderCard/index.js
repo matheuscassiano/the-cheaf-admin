@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Cover, Title, Footer, Type } from './styles';
 import { Price } from '..';
 
-export default function OrderCard() {
+export default function OrderCard({ title }) {
   return (
     <Container>
       <Cover />
-      <Title>Picanha na chapa com fritas</Title>
+      <Title>{title}</Title>
       <Footer>
         <Type />
         <Price />

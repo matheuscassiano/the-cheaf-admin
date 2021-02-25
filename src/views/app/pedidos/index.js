@@ -715,31 +715,31 @@ const BlankPage = ({ match }) => {
                 <CategoryCard>span</CategoryCard>
               </HorizontalScroll>
               <CardList>
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
-                <OrderCard />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
+                <OrderCard title="Picanha na chapa com fritas" />
               </CardList>
               <ModalFooter>
                 <span>
