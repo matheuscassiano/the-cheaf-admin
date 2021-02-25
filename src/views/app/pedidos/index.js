@@ -40,14 +40,14 @@ const BlankPage = ({ match }) => {
     <>
       <Row>
         <Colxx xxs="12">
-          <Breadcrumb heading="menu.default" match={match} />
+          <Breadcrumb heading="Pedidos das Mesas" match={match} />
           <Separator className="mb-5" />
         </Colxx>
       </Row>
       <Row>
         <Colxx lg="12" className="mb-4">
           <OrdersContainer>
-            <Order title="1" status="ocupado">
+            <Order title="1" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -65,7 +65,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -83,7 +83,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -101,7 +101,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -119,7 +119,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -137,7 +137,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -155,7 +155,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -173,7 +173,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -191,7 +191,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
@@ -209,7 +209,7 @@ const BlankPage = ({ match }) => {
                 <b>R$ 65.00</b>
               </CardContentItem>
             </Order>
-            <Order title="9" status="ocupado">
+            <Order title="9" status="ocupado" openModal={setModalActive}>
               <CardContentItem>
                 <b>Atendente:</b>
                 <span>Carla Ferreira</span>
