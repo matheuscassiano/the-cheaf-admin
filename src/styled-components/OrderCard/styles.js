@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 12em;
-  margin: 0.5em;
+  margin: 1em 0.5em;
   cursor: pointer;
   overflow: hidden;
-  border: ${({ active }) => (active ? '2px solid #08AF24' : 'none')};
+  border: 2px solid ${({ active }) => (active ? ' #08AF24' : 'transparent')};
   border-radius: 2em;
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
