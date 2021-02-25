@@ -716,126 +716,151 @@ const BlankPage = ({ match }) => {
               </HorizontalScroll>
               <CardList>
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
                 />
                 <OrderCard
+                  cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="carne"
                   price="R$ 60.00"
