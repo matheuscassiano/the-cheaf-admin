@@ -35,6 +35,7 @@ import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
 import MoreModal from '../../../styled-components/MoreModal';
+import { MoreItem } from '../../../styled-components/MoreModal/styles';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -944,7 +945,18 @@ const BlankPage = () => {
             </MidButton>
           </ButtonContainer>
         </SmallModal>
-        <MoreModal />
+        <MoreModal>
+          <MoreItem>
+            <b>Reimprimir</b> na Cozinha
+          </MoreItem>
+          <MoreItem>
+            Imprimir <b>3 itens na Cozinha</b>
+          </MoreItem>
+          <MoreItem>Imprimir Conta</MoreItem>
+          <MoreItem>
+            <b>Imprimir</b> Conta e <b>marca-la</b> como em fechamento
+          </MoreItem>
+        </MoreModal>
       </LargeModal>
     </>
   );

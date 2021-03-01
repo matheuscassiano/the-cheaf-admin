@@ -7,7 +7,7 @@ export const MoreContainer = styled.div`
   flex-direction: column;
   position: absolute;
   bottom: 7em;
-  left: 12.5em;
+  left: 17.8em;
   background-color: white;
   border-radius: 1em;
   padding: 1em;
@@ -21,6 +21,6 @@ export const MoreItem = styled.span`
   transition: all 0.2s ease-in-out;
 
   :hover {
-    background-color: #00000010;
+    background-color: #f2f2f2;
   }
 `;
