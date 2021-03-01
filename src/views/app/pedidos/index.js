@@ -34,6 +34,7 @@ import { OrderInfo } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
+import MoreModal from '../../../styled-components/MoreModal';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -943,6 +944,7 @@ const BlankPage = () => {
             </MidButton>
           </ButtonContainer>
         </SmallModal>
+        <MoreModal />
       </LargeModal>
     </>
   );
