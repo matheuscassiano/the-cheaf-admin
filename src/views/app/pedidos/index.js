@@ -24,7 +24,6 @@ import {
   ModalSearch,
   ModalFooter,
   CardList,
-  CheckBox,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
@@ -38,6 +37,7 @@ import { TextArea } from '../../../styled-components/small-modal/styles';
 import MoreModal from '../../../styled-components/MoreModal';
 import { MoreItem } from '../../../styled-components/MoreModal/styles';
 import SideModal from '../../../styled-components/SideModal';
+import CheckBox from '../../../styled-components/CheckBox';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -988,7 +988,8 @@ const BlankPage = () => {
           </MoreItem>
         </MoreModal>
         <SideModal title="Complementos - Picanha na chapa">
-          <CheckBox type="checkbox" />
+          <CheckBox />
+          <CheckBox />
         </SideModal>
       </LargeModal>
     </>
