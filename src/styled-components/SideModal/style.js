@@ -10,6 +10,7 @@ export const ModalContainer = styled.div`
   position: absolute;
   bottom: 4.15em;
   right: 0;
+  padding-bottom: 3.5em;
   background-color: white;
   border-radius: 1.5em 1.5em 0 0;
   box-shadow: 0px 0px 3px rgba(45, 80, 120, 0.3);
@@ -38,4 +39,24 @@ export const ModalContent = styled.div`
   flex-direction: column;
   align-items: center;
   overflow-y: auto;
+`;
+
+export const ModalButton = styled.button`
+  border: 0;
+  padding: 0.2em 1em;
+  border-radius: 1em;
+  color: ${({ textColor }) => textColor};
+  background-color: ${({ backColor }) => backColor};
+`;
+
+export const ModalFooter = styled.div`
+  width: 100%;
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  background-color: #08af24;
 `;

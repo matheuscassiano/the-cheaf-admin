@@ -1,5 +1,13 @@
 import React from 'react';
-import { ModalContainer, ModalContent, Close, Title } from './style';
+import Counter from '../Counter';
+import {
+  ModalContainer,
+  ModalContent,
+  Close,
+  Title,
+  ModalButton,
+  ModalFooter,
+} from './style';
 
 export default function SideModal({ children, title }) {
   return (
@@ -21,6 +29,15 @@ export default function SideModal({ children, title }) {
       <Title>{title}</Title>
       <span>Selecione o tamanho</span>
       <ModalContent>{children}</ModalContent>
+      <ModalFooter>
+        <ModalButton backColor="#DE5753" textColor="#FFFFFF">
+          Cancelar
+        </ModalButton>
+        <ModalButton backColor="#FFFFFF" textColor="#08AF24">
+          Enviar à cozinha
+        </ModalButton>
+        <Counter />
+      </ModalFooter>
     </ModalContainer>
   );
 }
