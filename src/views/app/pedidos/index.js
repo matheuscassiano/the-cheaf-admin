@@ -24,6 +24,7 @@ import {
   ModalSearch,
   ModalFooter,
   CardList,
+  CheckBox,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
@@ -987,7 +988,7 @@ const BlankPage = () => {
           </MoreItem>
         </MoreModal>
         <SideModal title="Complementos - Picanha na chapa">
-          <span>asdasd</span>
+          <CheckBox type="checkbox" />
         </SideModal>
       </LargeModal>
     </>
