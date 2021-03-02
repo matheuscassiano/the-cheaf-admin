@@ -1,5 +1,5 @@
 import React from 'react';
-import { ModalContainer, Close, Title } from './style';
+import { ModalContainer, ModalContent, Close, Title } from './style';
 
 export default function SideModal({ children, title }) {
   return (
@@ -20,7 +20,7 @@ export default function SideModal({ children, title }) {
       </Close>
       <Title>{title}</Title>
       <span>Selecione o tamanho</span>
-      {children}
+      <ModalContent>{children}</ModalContent>
     </ModalContainer>
   );
 }

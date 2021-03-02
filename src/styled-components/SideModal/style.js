@@ -13,7 +13,6 @@ export const ModalContainer = styled.div`
   background-color: white;
   border-radius: 1.5em 1.5em 0 0;
   box-shadow: 0px 0px 3px rgba(45, 80, 120, 0.3);
-  overflow-y: auto;
 `;
 
 export const Close = styled.button`
@@ -31,4 +30,12 @@ export const Title = styled.h3`
   text-align: center;
   margin: 0;
   padding: 1rem 0.2rem 0;
+`;
+
+export const ModalContent = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
 `;
