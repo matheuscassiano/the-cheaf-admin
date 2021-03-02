@@ -26,6 +26,7 @@ import {
   CardList,
   MenuListItem,
   ItemImage,
+  ItemImageContainer,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
@@ -993,32 +994,38 @@ const BlankPage = () => {
         <SideModal title="Complementos - Picanha na chapa">
           <br />
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <CheckBox />
           </MenuListItem>
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <CheckBox />
           </MenuListItem>
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <CheckBox />
           </MenuListItem>
@@ -1026,32 +1033,38 @@ const BlankPage = () => {
           <span>Selecione 1 ou mais complementos</span>
           <br />
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <Counter />
           </MenuListItem>
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <Counter />
           </MenuListItem>
           <MenuListItem>
-            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
-            <div>
-              <b>Para 3 pessoas</b>
-              <br />
-              <span>Carne 2 Kg</span>
-            </div>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
             <Price>R$ 50.00</Price>
             <Counter />
           </MenuListItem>

@@ -189,4 +189,10 @@ export const ItemImage = styled.img`
   height: 2.8em;
   object-fit: cover;
   border-radius: 100%;
+  margin-right: 1em;
+`;
+
+export const ItemImageContainer = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
