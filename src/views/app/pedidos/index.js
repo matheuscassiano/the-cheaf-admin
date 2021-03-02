@@ -40,6 +40,7 @@ import MoreModal from '../../../styled-components/MoreModal';
 import { MoreItem } from '../../../styled-components/MoreModal/styles';
 import SideModal from '../../../styled-components/SideModal';
 import CheckBox from '../../../styled-components/CheckBox';
+import Counter from '../../../styled-components/Counter';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -1032,7 +1033,7 @@ const BlankPage = () => {
               <span>Carne 2 Kg</span>
             </div>
             <Price>R$ 50.00</Price>
-            <CheckBox />
+            <Counter />
           </MenuListItem>
           <MenuListItem>
             <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
@@ -1042,7 +1043,7 @@ const BlankPage = () => {
               <span>Carne 2 Kg</span>
             </div>
             <Price>R$ 50.00</Price>
-            <CheckBox />
+            <Counter />
           </MenuListItem>
           <MenuListItem>
             <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
@@ -1052,7 +1053,7 @@ const BlankPage = () => {
               <span>Carne 2 Kg</span>
             </div>
             <Price>R$ 50.00</Price>
-            <CheckBox />
+            <Counter />
           </MenuListItem>
         </SideModal>
       </LargeModal>
