@@ -36,6 +36,7 @@ import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
 import MoreModal from '../../../styled-components/MoreModal';
 import { MoreItem } from '../../../styled-components/MoreModal/styles';
+import SideModal from '../../../styled-components/SideModal';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -986,6 +987,11 @@ const BlankPage = () => {
             Imprimir Fichas de Consumação <b>(3 Itens novos)</b>
           </MoreItem>
         </MoreModal>
+        <SideModal
+          active={moreModalActive}
+          setActive={setMoreModalActive}
+          xPos="12.3em"
+        />
       </LargeModal>
     </>
   );
