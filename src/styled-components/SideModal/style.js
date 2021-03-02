@@ -57,6 +57,6 @@ export const ModalFooter = styled.div`
   justify-content: space-between;
   position: absolute;
   bottom: 0;
-  padding: 1em;
+  padding: 1.2em 1em;
   background-color: #08af24;
 `;
