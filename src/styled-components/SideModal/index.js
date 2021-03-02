@@ -1,7 +1,7 @@
 import React from 'react';
-import { ModalContainer, Close } from './style';
+import { ModalContainer, Close, Title } from './style';
 
-export default function SideModal() {
+export default function SideModal({ children, title }) {
   return (
     <ModalContainer>
       <Close>
@@ -18,6 +18,8 @@ export default function SideModal() {
           />
         </svg>
       </Close>
+      <Title>{title}</Title>
+      {children}
     </ModalContainer>
   );
 }

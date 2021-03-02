@@ -4,6 +4,8 @@ import styled from 'styled-components';
 export const ModalContainer = styled.div`
   width: 25em;
   height: 30em;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   bottom: 4.15em;
   right: 0;
@@ -18,4 +20,11 @@ export const Close = styled.button`
   background-color: #ffffff80;
   border-radius: 100%;
   position: absolute;
+`;
+
+export const Title = styled.h3`
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.2rem 2rem;
 `;
