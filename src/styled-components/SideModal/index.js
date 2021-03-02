@@ -19,6 +19,7 @@ export default function SideModal({ children, title }) {
         </svg>
       </Close>
       <Title>{title}</Title>
+      <span>Selecione o tamanho</span>
       {children}
     </ModalContainer>
   );
