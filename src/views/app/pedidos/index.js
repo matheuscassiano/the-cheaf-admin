@@ -1044,6 +1044,16 @@ const BlankPage = () => {
             <Price>R$ 50.00</Price>
             <CheckBox />
           </MenuListItem>
+          <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
         </SideModal>
       </LargeModal>
     </>
