@@ -2,12 +2,12 @@
 import styled from 'styled-components';
 
 export const MoreContainer = styled.div`
-  max-width: 15em;
-  display: flex;
+  max-width: 15.5em;
+  display: ${({ active }) => (active ? 'flex' : 'none')};
   flex-direction: column;
   position: absolute;
   bottom: 7em;
-  left: 17.8em;
+  left: ${({ xPos }) => xPos};
   background-color: white;
   border-radius: 1em;
   padding: 1em;

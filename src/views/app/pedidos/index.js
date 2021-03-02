@@ -40,7 +40,10 @@ import { MoreItem } from '../../../styled-components/MoreModal/styles';
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
   const [smallModalActive, setSmallModalActive] = useState(false);
+  const [modalPrintActive, setModalPrintActive] = useState(false);
+  const [moreModalActive, setMoreModalActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
+
   return (
     <>
       <Row>
@@ -335,7 +338,10 @@ const BlankPage = () => {
                 />
               </svg>
             </MinButton>
-            <MinButton color="#FFB573">
+            <MinButton
+              color="#FFB573"
+              onClick={() => setMoreModalActive(!moreModalActive)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -366,7 +372,10 @@ const BlankPage = () => {
                 />
               </svg>
             </MinButton>
-            <MinButton color="#C4C4C4">
+            <MinButton
+              color="#C4C4C4"
+              onClick={() => setModalPrintActive(!modalPrintActive)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -945,7 +954,11 @@ const BlankPage = () => {
             </MidButton>
           </ButtonContainer>
         </SmallModal>
-        <MoreModal>
+        <MoreModal
+          active={modalPrintActive}
+          setActive={setModalPrintActive}
+          xPos="17.8em"
+        >
           <MoreItem>
             <b>Reimprimir</b> na Cozinha
           </MoreItem>
@@ -955,6 +968,22 @@ const BlankPage = () => {
           <MoreItem>Imprimir Conta</MoreItem>
           <MoreItem>
             <b>Imprimir</b> Conta e <b>marca-la</b> como em fechamento
+          </MoreItem>
+        </MoreModal>
+        <MoreModal
+          active={moreModalActive}
+          setActive={setMoreModalActive}
+          xPos="12.3em"
+        >
+          <MoreItem>Visualizar conta resumida</MoreItem>
+          <MoreItem>
+            <b>Trocar</b> para ...
+          </MoreItem>
+          <MoreItem>
+            <b>Transferir</b> ou <b>Copiar</b> itens para outra Mesa/Comanda
+          </MoreItem>
+          <MoreItem>
+            Imprimir Fichas de Consumação <b>(3 Itens novos)</b>
           </MoreItem>
         </MoreModal>
       </LargeModal>
