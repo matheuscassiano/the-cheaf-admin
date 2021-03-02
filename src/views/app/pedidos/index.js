@@ -25,6 +25,7 @@ import {
   ModalFooter,
   CardList,
   MenuListItem,
+  ItemImage,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
@@ -991,6 +992,50 @@ const BlankPage = () => {
         <SideModal title="Complementos - Picanha na chapa">
           <br />
           <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <br />
+          <span>asdasd</span>
+          <br />
+          <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
             <div>
               <b>Para 3 pessoas</b>
               <br />
