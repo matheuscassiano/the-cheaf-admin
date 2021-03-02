@@ -174,3 +174,12 @@ export const CardList = styled.div`
   flex-wrap: wrap;
   overflow-y: auto;
 `;
+
+export const MenuListItem = styled.div`
+  width: 100%;
+  padding: 0.5em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px rgba(45, 80, 120, 0.3);
+`;

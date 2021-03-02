@@ -24,6 +24,7 @@ import {
   ModalSearch,
   ModalFooter,
   CardList,
+  MenuListItem,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
@@ -988,8 +989,16 @@ const BlankPage = () => {
           </MoreItem>
         </MoreModal>
         <SideModal title="Complementos - Picanha na chapa">
-          <CheckBox />
-          <CheckBox />
+          <br />
+          <MenuListItem>
+            <div>
+              <b>Para 3 pessoas</b>
+              <br />
+              <span>Carne 2 Kg</span>
+            </div>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
         </SideModal>
       </LargeModal>
     </>
