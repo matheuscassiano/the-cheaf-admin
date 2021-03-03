@@ -1024,5 +1024,7 @@ const Info = () => (
       </ItemTitle>
       <Progress id="file" value="50" max="100" />
     </ProgressItem>
+    <h3>Saídas</h3>
+    <span>Não há registros de saída</span>
   </SmallSide>
 );
