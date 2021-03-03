@@ -10,7 +10,9 @@ export default function OrderCard({ cover, title, type, price, sideActive }) {
       active={active}
       onClick={() => {
         setActive(!active);
-        sideActive(true);
+        if (!active) {
+          sideActive(true);
+        }
       }}
     >
       <Cover draggable="false" src={cover} />
