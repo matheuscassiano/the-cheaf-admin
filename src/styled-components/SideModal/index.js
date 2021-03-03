@@ -9,10 +9,10 @@ import {
   ModalFooter,
 } from './style';
 
-export default function SideModal({ children, title, active }) {
+export default function SideModal({ children, title, active, setActive }) {
   return (
     <ModalContainer active={active}>
-      <Close>
+      <Close onClick={() => setActive(false)}>
         <svg
           width="8"
           height="7"
