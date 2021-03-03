@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const ModalContainer = styled.div`
   min-width: 50em;
   min-height: 30em;
+  display: ${({ active }) => (active ? 'block' : 'none')};
   position: absolute;
   top: 50%;
   left: 50%;

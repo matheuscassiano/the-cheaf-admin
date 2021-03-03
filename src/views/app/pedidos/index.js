@@ -50,6 +50,7 @@ const BlankPage = () => {
   const [modalPrintActive, setModalPrintActive] = useState(false);
   const [moreModalActive, setMoreModalActive] = useState(false);
   const [sideModalActive, setSideModalAcrtive] = useState(false);
+  const [selectTableActive, setSelectTableActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
 
   return (
@@ -1005,10 +1006,10 @@ const BlankPage = () => {
           xPos="12.3em"
         >
           <MoreItem>Visualizar conta resumida</MoreItem>
-          <MoreItem>
+          <MoreItem onClick={() => setSelectTableActive(true)}>
             <b>Trocar</b> para ...
           </MoreItem>
-          <MoreItem>
+          <MoreItem onClick={() => setSelectTableActive(true)}>
             <b>Transferir</b> ou <b>Copiar</b> itens para outra Mesa/Comanda
           </MoreItem>
           <MoreItem>
@@ -1097,7 +1098,11 @@ const BlankPage = () => {
             <Counter />
           </MenuListItem>
         </SideModal>
-        <MediumModal title="Selecione uma mesa">
+        <MediumModal
+          title="Selecione uma mesa"
+          active={selectTableActive}
+          setActive={setSelectTableActive}
+        >
           <TablesGrid>
             <TablesItem />
             <TablesItem />
@@ -1120,7 +1125,12 @@ const BlankPage = () => {
             <TablesItem />
             <TablesItem />
           </TablesGrid>
-          <MidButton color="#08AF24">Confirmar</MidButton>
+          <MidButton
+            color="#08AF24"
+            onClick={() => setSelectTableActive(false)}
+          >
+            Confirmar
+          </MidButton>
         </MediumModal>
       </LargeModal>
     </>
