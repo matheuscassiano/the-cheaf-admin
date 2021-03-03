@@ -18,3 +18,7 @@ export const Search = styled(Input)`
   width: 25em;
   border-radius: 20em;
 `;
+
+export const LageSide = styled.section`
+  padding: 4em 1.5em 2em;
+`;
