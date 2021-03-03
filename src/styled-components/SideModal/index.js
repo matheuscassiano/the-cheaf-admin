@@ -30,10 +30,18 @@ export default function SideModal({ children, title, active, setActive }) {
       <span>Selecione o tamanho</span>
       <ModalContent>{children}</ModalContent>
       <ModalFooter>
-        <ModalButton backColor="#DE5753" textColor="#FFFFFF">
+        <ModalButton
+          backColor="#DE5753"
+          textColor="#FFFFFF"
+          onClick={() => setActive(false)}
+        >
           Cancelar
         </ModalButton>
-        <ModalButton backColor="#FFFFFF" textColor="#08AF24">
+        <ModalButton
+          backColor="#FFFFFF"
+          textColor="#08AF24"
+          onClick={() => setActive(false)}
+        >
           Enviar à cozinha
         </ModalButton>
         <Counter />
