@@ -1,5 +1,23 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
+import { Input } from '../../../styled-components';
+
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+`;
+
+export const PageSearch = styled(Input)`
+  width: 20em;
+  border-radius: 20em;
+  padding-left: 2em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;
 
 export const OrderInfo = styled.aside`
   width: 100%;

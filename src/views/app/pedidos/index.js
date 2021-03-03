@@ -33,7 +33,13 @@ import SmallModal from '../../../styled-components/small-modal';
 import Order from '../../../styled-components/order';
 import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
-import { OrderInfo, TablesGrid, TablesItem } from './styles';
+import {
+  OrderInfo,
+  TablesGrid,
+  TablesItem,
+  Header,
+  PageSearch,
+} from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
@@ -57,10 +63,13 @@ const BlankPage = () => {
     <>
       <Row>
         <Colxx xxs="12">
-          <h2>Digite um número + Enter</h2>
-          <Input placeholder="Pesquisar por nome" />
+          <Header>
+            <h2>Digite um número + Enter</h2>
+            <PageSearch placeholder="Pesquisar por nome" />
+          </Header>
         </Colxx>
       </Row>
+      <br />
       <Row>
         <Colxx lg="12" className="mb-4">
           <OrdersContainer>
