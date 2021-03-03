@@ -42,6 +42,7 @@ import { MoreItem } from '../../../styled-components/MoreModal/styles';
 import SideModal from '../../../styled-components/SideModal';
 import CheckBox from '../../../styled-components/CheckBox';
 import Counter from '../../../styled-components/Counter';
+import MediumModal from '../../../styled-components/MediumModal';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -1096,6 +1097,7 @@ const BlankPage = () => {
             <Counter />
           </MenuListItem>
         </SideModal>
+        <MediumModal title="test" />
       </LargeModal>
     </>
   );
