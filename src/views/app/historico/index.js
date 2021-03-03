@@ -14,6 +14,8 @@ import {
   LargeSide,
   SmallSide,
   ItemTitle,
+  ProgressItem,
+  Spend,
 } from './styles';
 
 const Historic = () => {
@@ -987,7 +989,40 @@ const LogTable = () => (
 const Info = () => (
   <SmallSide>
     <h3>Entradas</h3>
-    <ItemTitle>Cartão de Crédito</ItemTitle>
-    <Progress id="file" value="50" max="100" />
+    <ProgressItem>
+      <ItemTitle>
+        Cartão de Crédito
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
+      <Progress id="file" value="50" max="100" />
+    </ProgressItem>
+    <ProgressItem>
+      <ItemTitle>
+        Cartão de Crédito
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
+      <Progress id="file" value="50" max="100" />
+    </ProgressItem>
+    <ProgressItem>
+      <ItemTitle>
+        Cartão de Crédito
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
+      <Progress id="file" value="50" max="100" />
+    </ProgressItem>
+    <ProgressItem>
+      <ItemTitle>
+        Cartão de Crédito
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
+      <Progress id="file" value="50" max="100" />
+    </ProgressItem>
+    <ProgressItem>
+      <ItemTitle>
+        Cartão de Crédito
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
+      <Progress id="file" value="50" max="100" />
+    </ProgressItem>
   </SmallSide>
 );

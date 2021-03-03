@@ -27,4 +27,18 @@ export const SmallSide = styled.section`
   padding: 1.5em;
 `;
 
-export const ItemTitle = styled.h3``;
+export const ProgressItem = styled.div`
+  padding: 0.8em 0;
+`;
+
+export const ItemTitle = styled.h3`
+  margin: 0;
+  font-weight: 200;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+`;
+
+export const Spend = styled.span`
+  font-size: 1rem;
+`;
