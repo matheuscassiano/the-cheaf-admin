@@ -48,6 +48,7 @@ const BlankPage = () => {
   const [smallModalActive, setSmallModalActive] = useState(false);
   const [modalPrintActive, setModalPrintActive] = useState(false);
   const [moreModalActive, setMoreModalActive] = useState(false);
+  const [sideModalActive, setSideModalAcrtive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
 
   return (
@@ -743,132 +744,154 @@ const BlankPage = () => {
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
               </CardList>
               <ModalFooter>
@@ -991,7 +1014,11 @@ const BlankPage = () => {
             Imprimir Fichas de Consumação <b>(3 Itens novos)</b>
           </MoreItem>
         </MoreModal>
-        <SideModal title="Complementos - Picanha na chapa">
+        <SideModal
+          title="Complementos - Picanha na chapa"
+          active={sideModalActive}
+          setActive={setSideModalAcrtive}
+        >
           <br />
           <MenuListItem>
             <ItemImageContainer>

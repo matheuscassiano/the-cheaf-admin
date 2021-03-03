@@ -9,9 +9,9 @@ import {
   ModalFooter,
 } from './style';
 
-export default function SideModal({ children, title }) {
+export default function SideModal({ children, title, active }) {
   return (
-    <ModalContainer>
+    <ModalContainer active={active}>
       <Close>
         <svg
           width="8"

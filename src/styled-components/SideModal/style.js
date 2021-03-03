@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const ModalContainer = styled.div`
   width: 26em;
   max-height: 32em;
-  display: flex;
+  display: ${({ active }) => (active ? 'flex' : 'none')};
   flex-direction: column;
   align-items: center;
   position: absolute;
