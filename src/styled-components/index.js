@@ -197,3 +197,19 @@ export const ItemImageContainer = styled.div`
   display: flex;
   flex-direction: row;
 `;
+
+export const Progress = styled.progress`
+  width: 100%;
+  height: 0.6em;
+  appearance: none;
+
+  ::-webkit-progress-value {
+    background-color: #08af24;
+    border-radius: 2em;
+  }
+
+  ::-webkit-progress-bar {
+    border-radius: 2px;
+    background-color: #d0d5da;
+  }
+`;

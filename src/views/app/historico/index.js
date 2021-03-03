@@ -5,7 +5,7 @@ import React from 'react';
 import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
 import { Colxx } from '../../../components/common/CustomBootstrap';
-import { Table, TD, TH, TR } from '../../../styled-components';
+import { Progress, Table, TD, TH, TR } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import {
   Header,
@@ -988,6 +988,6 @@ const Info = () => (
   <SmallSide>
     <h3>Entradas</h3>
     <ItemTitle>Cartão de Crédito</ItemTitle>
-    <progress id="file" value="9" max="100" />
+    <Progress id="file" value="50" max="100" />
   </SmallSide>
 );
