@@ -13,6 +13,9 @@ const SecondMenu = React.lazy(() =>
 const Pedidos = React.lazy(() =>
   import(/* webpackChunkName: "viwes-second-menu" */ './pedidos')
 );
+const HistoricoDeCaixa = React.lazy(() =>
+  import(/* webpackChunkName: "viwes-second-menu" */ './historico')
+);
 const BlankPage = React.lazy(() =>
   import(/* webpackChunkName: "viwes-blank-page" */ './blank-page')
 );
@@ -35,6 +38,10 @@ const App = ({ match }) => {
             <Route
               path={`${match.url}/pedidos`}
               render={(props) => <Pedidos {...props} />}
+            />
+            <Route
+              path={`${match.url}/historico`}
+              render={(props) => <HistoricoDeCaixa {...props} />}
             />
             <Route
               path={`${match.url}/blank-page`}

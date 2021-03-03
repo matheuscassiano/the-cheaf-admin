@@ -41,5 +41,11 @@ const data = [
     label: 'Mesas',
     to: `${adminRoot}/pedidos`,
   },
+  {
+    id: 'historico',
+    icon: 'iconsminds-receipt',
+    label: 'Historico de Caixa',
+    to: `${adminRoot}/historico`,
+  },
 ];
 export default data;
