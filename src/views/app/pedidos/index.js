@@ -24,21 +24,35 @@ import {
   ModalSearch,
   ModalFooter,
   CardList,
+  MenuListItem,
+  ItemImage,
+  ItemImageContainer,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import SmallModal from '../../../styled-components/small-modal';
 import Order from '../../../styled-components/order';
 import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
-import { OrderInfo } from './styles';
+import { OrderInfo, TablesGrid, TablesItem } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
+import MoreModal from '../../../styled-components/MoreModal';
+import { MoreItem } from '../../../styled-components/MoreModal/styles';
+import SideModal from '../../../styled-components/SideModal';
+import CheckBox from '../../../styled-components/CheckBox';
+import Counter from '../../../styled-components/Counter';
+import MediumModal from '../../../styled-components/MediumModal';
 
 const BlankPage = () => {
   const [modalActive, setModalActive] = useState(false);
   const [smallModalActive, setSmallModalActive] = useState(false);
+  const [modalPrintActive, setModalPrintActive] = useState(false);
+  const [moreModalActive, setMoreModalActive] = useState(false);
+  const [sideModalActive, setSideModalAcrtive] = useState(false);
+  const [selectTableActive, setSelectTableActive] = useState(false);
   const [modalPage, setModalPage] = useState('order-list');
+
   return (
     <>
       <Row>
@@ -333,7 +347,10 @@ const BlankPage = () => {
                 />
               </svg>
             </MinButton>
-            <MinButton color="#FFB573">
+            <MinButton
+              color="#FFB573"
+              onClick={() => setMoreModalActive(!moreModalActive)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -364,7 +381,10 @@ const BlankPage = () => {
                 />
               </svg>
             </MinButton>
-            <MinButton color="#C4C4C4">
+            <MinButton
+              color="#C4C4C4"
+              onClick={() => setModalPrintActive(!modalPrintActive)}
+            >
               <svg
                 width="24"
                 height="24"
@@ -726,132 +746,154 @@ const BlankPage = () => {
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
                 <OrderCard
                   cover="/assets/img/orders/order.png"
                   title="Picanha na chapa com fritas"
                   type="Carnes"
                   price="R$ 60.00"
+                  sideActive={setSideModalAcrtive}
                 />
               </CardList>
               <ModalFooter>
@@ -865,7 +907,6 @@ const BlankPage = () => {
             </InputContainer>
           </>
         )}
-
         {modalPage === 'order-list' ? (
           <>
             <FloatButton color="#FFB573" bottom="7.3em" right="2em">
@@ -943,6 +984,154 @@ const BlankPage = () => {
             </MidButton>
           </ButtonContainer>
         </SmallModal>
+        <MoreModal
+          active={modalPrintActive}
+          setActive={setModalPrintActive}
+          xPos="17.8em"
+        >
+          <MoreItem>
+            <b>Reimprimir</b> na Cozinha
+          </MoreItem>
+          <MoreItem>
+            Imprimir <b>3 itens na Cozinha</b>
+          </MoreItem>
+          <MoreItem>Imprimir Conta</MoreItem>
+          <MoreItem>
+            <b>Imprimir</b> Conta e <b>marca-la</b> como em fechamento
+          </MoreItem>
+        </MoreModal>
+        <MoreModal
+          active={moreModalActive}
+          setActive={setMoreModalActive}
+          xPos="12.3em"
+        >
+          <MoreItem>Visualizar conta resumida</MoreItem>
+          <MoreItem onClick={() => setSelectTableActive(true)}>
+            <b>Trocar</b> para ...
+          </MoreItem>
+          <MoreItem onClick={() => setSelectTableActive(true)}>
+            <b>Transferir</b> ou <b>Copiar</b> itens para outra Mesa/Comanda
+          </MoreItem>
+          <MoreItem>
+            Imprimir Fichas de Consumação <b>(3 Itens novos)</b>
+          </MoreItem>
+        </MoreModal>
+        <SideModal
+          title="Complementos - Picanha na chapa"
+          active={sideModalActive}
+          setActive={setSideModalAcrtive}
+        >
+          <br />
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <CheckBox />
+          </MenuListItem>
+          <br />
+          <span>Selecione 1 ou mais complementos</span>
+          <br />
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <Counter />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <Counter />
+          </MenuListItem>
+          <MenuListItem>
+            <ItemImageContainer>
+              <ItemImage src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80" />
+              <div>
+                <b>Para 3 pessoas</b>
+                <br />
+                <span>Carne 2 Kg</span>
+              </div>
+            </ItemImageContainer>
+            <Price>R$ 50.00</Price>
+            <Counter />
+          </MenuListItem>
+        </SideModal>
+        <MediumModal
+          title="Selecione uma mesa"
+          active={selectTableActive}
+          setActive={setSelectTableActive}
+        >
+          <TablesGrid>
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+          </TablesGrid>
+          <MidButton
+            color="#08AF24"
+            onClick={() => setSelectTableActive(false)}
+          >
+            Confirmar
+          </MidButton>
+        </MediumModal>
       </LargeModal>
     </>
   );

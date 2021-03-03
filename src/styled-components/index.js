@@ -174,3 +174,25 @@ export const CardList = styled.div`
   flex-wrap: wrap;
   overflow-y: auto;
 `;
+
+export const MenuListItem = styled.div`
+  width: 100%;
+  padding: 0.7em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px rgba(45, 80, 120, 0.3);
+`;
+
+export const ItemImage = styled.img`
+  width: 2.8em;
+  height: 2.8em;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 1em;
+`;
+
+export const ItemImageContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
