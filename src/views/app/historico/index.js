@@ -7,7 +7,14 @@ import { Row } from 'reactstrap';
 import { Colxx } from '../../../components/common/CustomBootstrap';
 import { Table, TD, TH, TR } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
-import { Header, HeaderButton, Search, LageSide } from './styles';
+import {
+  Header,
+  HeaderButton,
+  Search,
+  LargeSide,
+  SmallSide,
+  ItemTitle,
+} from './styles';
 
 const Historic = () => {
   return (
@@ -910,7 +917,7 @@ const Historic = () => {
         </Colxx>
       </Row>
       <LargeModal active>
-        <span>sd</span>
+        <Info />
         <LogTable />
       </LargeModal>
     </>
@@ -920,7 +927,7 @@ const Historic = () => {
 export default injectIntl(Historic);
 
 const LogTable = () => (
-  <LageSide>
+  <LargeSide>
     <Table>
       <TR>
         <TH>Data e Hora</TH>
@@ -974,5 +981,13 @@ const LogTable = () => (
         </TD>
       </TR>
     </Table>
-  </LageSide>
+  </LargeSide>
+);
+
+const Info = () => (
+  <SmallSide>
+    <h3>Entradas</h3>
+    <ItemTitle>Cartão de Crédito</ItemTitle>
+    <progress id="file" value="9" max="100" />
+  </SmallSide>
 );

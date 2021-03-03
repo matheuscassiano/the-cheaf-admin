@@ -19,6 +19,12 @@ export const Search = styled(Input)`
   border-radius: 20em;
 `;
 
-export const LageSide = styled.section`
+export const LargeSide = styled.section`
   padding: 4em 1.5em 2em;
 `;
+
+export const SmallSide = styled.section`
+  padding: 1.5em;
+`;
+
+export const ItemTitle = styled.h3``;
