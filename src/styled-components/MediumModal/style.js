@@ -2,11 +2,12 @@
 import styled from 'styled-components';
 
 export const ModalContainer = styled.div`
-  width: 50em;
-  height: 30em;
+  min-width: 50em;
+  min-height: 30em;
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 1em;
   border-radius: 2em;
   transform: translate(-50%, -50%);
   background-color: white;
@@ -15,4 +16,5 @@ export const ModalContainer = styled.div`
 
 export const Title = styled.h6`
   text-align: center;
+  font-weight: 700;
 `;

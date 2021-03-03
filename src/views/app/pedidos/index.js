@@ -1097,7 +1097,7 @@ const BlankPage = () => {
             <Counter />
           </MenuListItem>
         </SideModal>
-        <MediumModal title="test" />
+        <MediumModal title="Selecione uma mesa" />
       </LargeModal>
     </>
   );
