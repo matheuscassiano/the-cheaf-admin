@@ -1,10 +1,11 @@
 import React from 'react';
-import { ModalContainer, Title } from './style';
+import { ModalContainer, ModalContent, Title } from './style';
 
-export default function MediumModal({ title }) {
+export default function MediumModal({ children, title }) {
   return (
     <ModalContainer>
       <Title>{title}</Title>
+      <ModalContent>{children}</ModalContent>
     </ModalContainer>
   );
 }

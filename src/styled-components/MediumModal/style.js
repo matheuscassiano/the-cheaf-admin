@@ -14,6 +14,12 @@ export const ModalContainer = styled.div`
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 
+export const ModalContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+`;
+
 export const Title = styled.h6`
   text-align: center;
   font-weight: 700;

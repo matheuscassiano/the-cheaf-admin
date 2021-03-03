@@ -33,7 +33,7 @@ import SmallModal from '../../../styled-components/small-modal';
 import Order from '../../../styled-components/order';
 import OrderCard from '../../../styled-components/OrderCard';
 import { CardContentItem } from '../../../styled-components/order/styles';
-import { OrderInfo } from './styles';
+import { OrderInfo, TablesGrid, TablesItem } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
 import { TextArea } from '../../../styled-components/small-modal/styles';
@@ -1097,7 +1097,31 @@ const BlankPage = () => {
             <Counter />
           </MenuListItem>
         </SideModal>
-        <MediumModal title="Selecione uma mesa" />
+        <MediumModal title="Selecione uma mesa">
+          <TablesGrid>
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+            <TablesItem />
+          </TablesGrid>
+          <MidButton color="#08AF24">Confirmar</MidButton>
+        </MediumModal>
       </LargeModal>
     </>
   );
