@@ -6,6 +6,7 @@ import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
 import { Colxx } from '../../../components/common/CustomBootstrap';
 import { Table, TD, TH, TR } from '../../../styled-components';
+import LargeModal from '../../../styled-components/large-modal';
 import { Header, HeaderButton, Search } from './styles';
 
 const Historic = () => {
@@ -908,6 +909,29 @@ const Historic = () => {
           </Table>
         </Colxx>
       </Row>
+      <LargeModal active>
+        <span>sd</span>
+        <div>
+          <Table>
+            <TR>
+              <TH>Data e Hora</TH>
+              <TH>Descrição</TH>
+              <TH>Entrada</TH>
+              <TH>Saída</TH>
+              <TH>Forma de Pagamento</TH>
+              <TH />
+            </TR>
+            <TR>
+              <TD>12/02/2020 12:00:00</TD>
+              <TD>Pedido #4678 (Comanda 30)</TD>
+              <TD>R$ 30.00</TD>
+              <TD>R$ 0.00</TD>
+              <TD>Cartão de Crédito</TD>
+              <TD />
+            </TR>
+          </Table>
+        </div>
+      </LargeModal>
     </>
   );
 };
