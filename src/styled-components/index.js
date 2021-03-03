@@ -116,6 +116,7 @@ export const Table = styled.table`
 export const TR = styled.tr`
   border-radius: 5px;
   margin-bottom: 5em;
+  background-color: white;
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 export const TH = styled.th`
