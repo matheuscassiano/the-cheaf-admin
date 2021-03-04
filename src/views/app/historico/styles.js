@@ -25,6 +25,7 @@ export const LargeSide = styled.section`
 
 export const SmallSide = styled.section`
   padding: 1.5em;
+  padding-top: 1em;
 `;
 
 export const ProgressItem = styled.div`
