@@ -51,3 +51,9 @@ export const ModalFooter = styled.footer`
   position: absolute;
   bottom: 1em;
 `;
+
+export const PageSplit = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+`;
