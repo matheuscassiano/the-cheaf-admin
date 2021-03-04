@@ -1023,7 +1023,12 @@ const Info = () => (
         <Spend>R$ 2.000,00</Spend>
       </ItemTitle>
       <Progress id="file" value="50" max="100" />
+      <ItemTitle>
+        <b>Total</b>
+        <Spend>R$ 2.000,00</Spend>
+      </ItemTitle>
     </ProgressItem>
+    <br />
     <h3>Saídas</h3>
     <span>Não há registros de saída</span>
   </SmallSide>
