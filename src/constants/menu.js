@@ -51,7 +51,7 @@ const data = [
     id: 'caixa',
     icon: 'iconsminds-receipt',
     label: 'Caixa',
-    to: `${adminRoot}/historico`,
+    to: `${adminRoot}/caixa`,
   },
 ];
 export default data;
