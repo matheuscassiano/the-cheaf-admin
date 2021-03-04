@@ -1,7 +1,7 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/label-has-for */
-import React from 'react';
+import React, { useState } from 'react';
 import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
 import { Colxx } from '../../../components/common/CustomBootstrap';
@@ -27,6 +27,7 @@ import {
 } from './styles';
 
 const Historic = () => {
+  const [largeModalActive, setLargeModalActive] = useState(false);
   return (
     <>
       <Row>
@@ -131,7 +132,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -171,7 +172,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -211,7 +212,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -251,7 +252,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -291,7 +292,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -331,7 +332,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -371,7 +372,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -411,7 +412,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -451,7 +452,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -491,7 +492,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -531,7 +532,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -571,7 +572,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -611,7 +612,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -651,7 +652,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -691,7 +692,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -731,7 +732,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -771,7 +772,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -811,7 +812,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -851,7 +852,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -891,7 +892,7 @@ const Historic = () => {
               <TD>João Pedro</TD>
               <TD>Fechado</TD>
               <TD>Aberto às 12:18 por Joãoo Pedro</TD>
-              <TD>
+              <TD onClick={() => setLargeModalActive(true)}>
                 <svg
                   width="20"
                   height="20"
@@ -926,7 +927,7 @@ const Historic = () => {
           </Table>
         </Colxx>
       </Row>
-      <LargeModal active>
+      <LargeModal active={largeModalActive} setActive={setLargeModalActive}>
         <Info />
         <LogTable />
       </LargeModal>
