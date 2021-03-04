@@ -21,6 +21,7 @@ export const Search = styled(Input)`
 
 export const LargeSide = styled.section`
   padding: 4em 1.5em 2em;
+  position: relative;
 `;
 
 export const SmallSide = styled.section`
@@ -44,4 +45,9 @@ export const ItemTitle = styled.h3`
 
 export const Spend = styled.span`
   font-size: 1rem;
+`;
+
+export const ModalFooter = styled.footer`
+  position: absolute;
+  bottom: 1em;
 `;
