@@ -24,8 +24,10 @@ export const LargeSide = styled.section`
 `;
 
 export const SmallSide = styled.section`
+  height: 100%;
   padding: 1.5em;
   padding-top: 1em;
+  box-shadow: 0px 1px 2px rgba(45, 80, 120, 0.3);
 `;
 
 export const ProgressItem = styled.div`
