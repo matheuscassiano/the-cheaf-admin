@@ -116,6 +116,7 @@ export const Table = styled.table`
 export const TR = styled.tr`
   border-radius: 5px;
   margin-bottom: 5em;
+  background-color: white;
   box-shadow: 0px 0px 2px rgba(45, 80, 120, 0.3);
 `;
 export const TH = styled.th`
@@ -195,4 +196,27 @@ export const ItemImage = styled.img`
 export const ItemImageContainer = styled.div`
   display: flex;
   flex-direction: row;
+`;
+
+export const Progress = styled.progress`
+  width: 100%;
+  height: 0.6em;
+  appearance: none;
+
+  ::-webkit-progress-value {
+    background-color: #08af24;
+    border-radius: 2em;
+  }
+
+  ::-webkit-progress-bar {
+    border-radius: 2px;
+    background-color: #d0d5da;
+  }
+`;
+
+export const CashStatus = styled.header`
+  padding: 1em 1.5em 0.25em;
+  color: white;
+  font-weight: bold;
+  background-color: ${({ color }) => color};
 `;
