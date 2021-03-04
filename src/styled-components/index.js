@@ -213,3 +213,10 @@ export const Progress = styled.progress`
     background-color: #d0d5da;
   }
 `;
+
+export const CashStatus = styled.header`
+  padding: 1em 1.5em 0.25em;
+  color: white;
+  font-weight: bold;
+  background-color: ${({ color }) => color};
+`;

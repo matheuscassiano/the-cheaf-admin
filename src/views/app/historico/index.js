@@ -5,7 +5,14 @@ import React from 'react';
 import { injectIntl } from 'react-intl';
 import { Row } from 'reactstrap';
 import { Colxx } from '../../../components/common/CustomBootstrap';
-import { Progress, Table, TD, TH, TR } from '../../../styled-components';
+import {
+  CashStatus,
+  Progress,
+  Table,
+  TD,
+  TH,
+  TR,
+} from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import {
   Header,
@@ -987,49 +994,68 @@ const LogTable = () => (
 );
 
 const Info = () => (
-  <SmallSide>
-    <h3>Entradas</h3>
-    <ProgressItem>
-      <ItemTitle>
-        Cartão de Crédito
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-      <Progress id="file" value="50" max="100" />
-    </ProgressItem>
-    <ProgressItem>
-      <ItemTitle>
-        Cartão de Crédito
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-      <Progress id="file" value="50" max="100" />
-    </ProgressItem>
-    <ProgressItem>
-      <ItemTitle>
-        Cartão de Crédito
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-      <Progress id="file" value="50" max="100" />
-    </ProgressItem>
-    <ProgressItem>
-      <ItemTitle>
-        Cartão de Crédito
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-      <Progress id="file" value="50" max="100" />
-    </ProgressItem>
-    <ProgressItem>
-      <ItemTitle>
-        Cartão de Crédito
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-      <Progress id="file" value="50" max="100" />
-      <ItemTitle>
-        <b>Total</b>
-        <Spend>R$ 2.000,00</Spend>
-      </ItemTitle>
-    </ProgressItem>
-    <br />
-    <h3>Saídas</h3>
-    <span>Não há registros de saída</span>
-  </SmallSide>
+  <div>
+    <CashStatus color="#de5753">
+      <h3>Caixa Fechado</h3>
+    </CashStatus>
+    <SmallSide>
+      <h3>Entradas</h3>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+      </ProgressItem>
+      <ProgressItem>
+        <ItemTitle>
+          Cartão de Crédito
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+        <Progress value="50" max="100" />
+        <ItemTitle>
+          <b>Total</b>
+          <Spend>R$ 2.000,00</Spend>
+        </ItemTitle>
+      </ProgressItem>
+      <br />
+      <h3>Saídas</h3>
+      <span>Não há registros de saída</span>
+    </SmallSide>
+  </div>
 );
