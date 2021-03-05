@@ -1,11 +1,11 @@
 import React from 'react';
 import { CardContainer, CardMoney, CardTitle } from './style';
 
-export default function CashCard({ title, color }) {
+export default function CashCard({ title, value, color }) {
   return (
     <CardContainer color={color}>
       <CardTitle>{title}</CardTitle>
-      <CardMoney color={color}>R$ 5.000,00</CardMoney>
+      <CardMoney color={color}>{value}</CardMoney>
     </CardContainer>
   );
 }
