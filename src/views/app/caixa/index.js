@@ -42,35 +42,28 @@ const Historic = () => {
               <HeaderButton>
                 <svg
                   width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
+                  height="25"
+                  viewBox="0 0 24 25"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
-                    stroke="#08AF24"
+                    d="M12 22.4141C17.5228 22.4141 22 17.9369 22 12.4141C22 6.89121 17.5228 2.41406 12 2.41406C6.47715 2.41406 2 6.89121 2 12.4141C2 17.9369 6.47715 22.4141 12 22.4141Z"
+                    stroke="#E4897B"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
-                    d="M16 2V6"
-                    stroke="#08AF24"
+                    d="M15 9.41406L9 15.4141"
+                    stroke="#E4897B"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
-                    d="M8 2V6"
-                    stroke="#08AF24"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3 10H21"
-                    stroke="#08AF24"
+                    d="M9 9.41406L15 15.4141"
+                    stroke="#E4897B"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -80,35 +73,28 @@ const Historic = () => {
               </HeaderButton>
               <HeaderButton>
                 <svg
-                  width="24"
+                  width="25"
                   height="24"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 25 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z"
+                    d="M12.0562 22C17.579 22 22.0562 17.5228 22.0562 12C22.0562 6.47715 17.579 2 12.0562 2C6.5333 2 2.05615 6.47715 2.05615 12C2.05615 17.5228 6.5333 22 12.0562 22Z"
                     stroke="#08AF24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
-                    d="M16 2V6"
+                    d="M12.0562 8V16"
                     stroke="#08AF24"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
                   <path
-                    d="M8 2V6"
-                    stroke="#08AF24"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M3 10H21"
+                    d="M8.05615 12H16.0562"
                     stroke="#08AF24"
                     strokeWidth="2"
                     strokeLinecap="round"
