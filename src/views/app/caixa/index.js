@@ -13,6 +13,7 @@ import {
   TH,
   TR,
 } from '../../../styled-components';
+import CashCard from '../../../styled-components/CashCard';
 import LargeModal from '../../../styled-components/large-modal';
 import {
   Header,
@@ -927,6 +928,9 @@ const Historic = () => {
                 </TD>
               </TR>
             </Table>
+            <div>
+              <CashCard color="#08AF24" />
+            </div>
           </PageSplit>
         </Colxx>
       </Row>
