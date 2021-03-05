@@ -40,6 +40,7 @@ import {
   TablesItem,
   Header,
   PageSearch,
+  ItemRow,
 } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
@@ -1202,6 +1203,64 @@ const LargePaymentSide = () => (
 const SmallPaymentSide = () => (
   <OrderInfo>
     <h2>Mesa 12</h2>
+    <div>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <div>
+          <span>1 Brama Dublo Malte</span>
+          <br />
+          <span>+ Batata Frita</span>
+          <br />
+          <span>+ Batata Frita</span>
+        </div>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+    </div>
     <OrderList>
       <OrderContent>
         <span>Subtotal</span>

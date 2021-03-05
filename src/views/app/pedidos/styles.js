@@ -41,3 +41,9 @@ export const TablesItem = styled.div`
   border-radius: 100%;
   background-color: #08af24;
 `;
+
+export const ItemRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 0;
+`;
