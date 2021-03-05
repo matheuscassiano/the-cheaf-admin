@@ -260,6 +260,7 @@ const BlankPage = () => {
         <InfoSide
           moreModalActive={moreModalActive}
           modalPrintActive={modalPrintActive}
+          setModalPage={setModalPage}
           setSmallModalActive={setSmallModalActive}
           setMoreModalActive={setMoreModalActive}
           setModalPrintActive={setModalPrintActive}
@@ -989,6 +990,7 @@ export default injectIntl(BlankPage);
 const InfoSide = ({
   moreModalActive,
   modalPrintActive,
+  setModalPage,
   setSmallModalActive,
   setMoreModalActive,
   setModalPrintActive,
@@ -1049,7 +1051,9 @@ const InfoSide = ({
         <Price>R$ 365.50</Price>
       </OrderContent>
     </OrderList>
-    <Button color="#08af24">Pagamento</Button>
+    <Button color="#08af24" onClick={() => setModalPage('payment')}>
+      Pagamento
+    </Button>
     <ButtonContainer>
       <MinButton color="#CE6F64" onClick={() => setSmallModalActive(true)}>
         <svg
