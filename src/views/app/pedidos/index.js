@@ -286,8 +286,8 @@ const BlankPage = () => {
         )}
         {modalPage === 'payment' && (
           <>
-            <LargePaymentSide />
             <SmallPaymentSide />
+            <LargePaymentSide />
           </>
         )}
         {modalPage === 'order-list' ? (
@@ -1200,7 +1200,29 @@ const LargePaymentSide = () => (
 );
 
 const SmallPaymentSide = () => (
-  <div>
-    <h1>asd</h1>
-  </div>
+  <OrderInfo>
+    <h2>Mesa 12</h2>
+    <OrderList>
+      <OrderContent>
+        <span>Subtotal</span>
+        <Price>R$ 265.00</Price>
+      </OrderContent>
+      <OrderContent>
+        <span>Taxa de Serviço</span>
+        <Price>R$ 26.50</Price>
+      </OrderContent>
+      <OrderContent>
+        <span>Taxa de Serviço</span>
+        <Price>R$ 26.50</Price>
+      </OrderContent>
+      <OrderContent>
+        <span>Taxa de Serviço</span>
+        <Price>R$ 26.50</Price>
+      </OrderContent>
+      <OrderContent>
+        <b>Total</b>
+        <Price>R$ 365.50</Price>
+      </OrderContent>
+    </OrderList>
+  </OrderInfo>
 );
