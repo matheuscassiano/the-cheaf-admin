@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 import { Input } from '../../../styled-components';
+import { CardContainer } from '../../../styled-components/CashCard/style';
 
 export const Header = styled.header`
   display: flex;
@@ -56,4 +57,14 @@ export const PageSplit = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: 3fr 1fr;
+`;
+
+export const CashAside = styled(CardContainer)`
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+`;
+
+export const CashAsideContent = styled.div`
+  padding: 1.5em;
 `;

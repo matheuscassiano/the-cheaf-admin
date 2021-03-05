@@ -26,6 +26,8 @@ import {
   Spend,
   ModalFooter,
   PageSplit,
+  CashAside,
+  CashAsideContent,
 } from './styles';
 
 const Historic = () => {
@@ -939,6 +941,70 @@ const Historic = () => {
                 value="R$ 2000,00"
                 color="#FFB573"
               />
+              <CashAside>
+                <CashStatus color="#57C367;">
+                  <h3>Caixa aberto</h3>
+                </CashStatus>
+                <CashAsideContent>
+                  <h3>Entradas</h3>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                  </ProgressItem>
+                  <ProgressItem>
+                    <ItemTitle>
+                      Cartão de Crédito
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                    <Progress value="50" max="100" />
+                    <ItemTitle>
+                      <b>Total</b>
+                      <Spend>R$ 2.000,00</Spend>
+                    </ItemTitle>
+                  </ProgressItem>
+                  <br />
+                  <h3>Saídas</h3>
+                  <span>Não há registros de saída</span>
+                </CashAsideContent>
+              </CashAside>
             </div>
           </PageSplit>
         </Colxx>
