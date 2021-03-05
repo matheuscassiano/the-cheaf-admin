@@ -930,6 +930,7 @@ const Historic = () => {
             </Table>
             <div>
               <CashCard title="Balanço do dia" color="#08AF24" />
+              <CashCard title="Balanço do dia" color="#08AF24" />
             </div>
           </PageSplit>
         </Colxx>
