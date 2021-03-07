@@ -41,6 +41,9 @@ import {
   Header,
   PageSearch,
   ItemRow,
+  OrderDetails,
+  SmallOrderInfo,
+  SmallOrderHeader,
 } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
@@ -1207,9 +1210,69 @@ const LargePaymentSide = () => (
 );
 
 const SmallPaymentSide = () => (
-  <OrderInfo>
-    <h2>Mesa 12</h2>
-    <div>
+  <SmallOrderInfo>
+    <SmallOrderHeader>
+      <h2>Mesa 12</h2>
+      <b>Selecionar e dividir</b>
+    </SmallOrderHeader>
+    <OrderDetails>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
+      <ItemRow>
+        <span>1 Brama Dublo Malte</span>
+        <Price>R$ 26.50</Price>
+      </ItemRow>
       <ItemRow>
         <span>1 Brama Dublo Malte</span>
         <Price>R$ 26.50</Price>
@@ -1266,7 +1329,7 @@ const SmallPaymentSide = () => (
         <span>1 Brama Dublo Malte</span>
         <Price>R$ 26.50</Price>
       </ItemRow>
-    </div>
+    </OrderDetails>
     <OrderList>
       <OrderContent>
         <span>Subtotal</span>
@@ -1289,5 +1352,5 @@ const SmallPaymentSide = () => (
         <Price>R$ 365.50</Price>
       </OrderContent>
     </OrderList>
-  </OrderInfo>
+  </SmallOrderInfo>
 );

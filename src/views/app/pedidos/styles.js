@@ -27,6 +27,10 @@ export const OrderInfo = styled.aside`
   border-right: 1px solid lightgray;
 `;
 
+export const SmallOrderInfo = styled(OrderInfo)`
+  padding: 0;
+`;
+
 export const TablesGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -46,4 +50,16 @@ export const ItemRow = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 0.25em 0;
+`;
+
+export const OrderDetails = styled.div`
+  height: 35em;
+  max-height: 35em;
+  overflow-y: auto;
+  padding: 0 2em;
+  border-bottom: 1px solid gray;
+`;
+
+export const SmallOrderHeader = styled.header`
+  padding: 2em 0 1em 2em;
 `;
