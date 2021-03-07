@@ -1196,7 +1196,13 @@ const SelectItems = ({ setSideModalAcrtive }) => (
 
 const LargePaymentSide = () => (
   <div>
-    <h1> </h1>
+    <ModalSearch placeholder="Cupom de descontos" />
+    <HorizontalScroll>
+      <CategoryCard>span</CategoryCard>
+      <CategoryCard>span</CategoryCard>
+      <CategoryCard>span</CategoryCard>
+      <CategoryCard>span</CategoryCard>
+    </HorizontalScroll>
   </div>
 );
 
