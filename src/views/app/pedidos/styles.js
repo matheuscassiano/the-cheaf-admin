@@ -53,13 +53,16 @@ export const ItemRow = styled.div`
 `;
 
 export const OrderDetails = styled.div`
-  height: 35em;
-  max-height: 35em;
+  height: 33em;
   overflow-y: auto;
   padding: 0 2em;
-  border-bottom: 1px solid gray;
+  border-bottom: 0.3px solid #979797;
 `;
 
 export const SmallOrderHeader = styled.header`
   padding: 2em 0 1em 2em;
+`;
+
+export const SmallOrderFooter = styled.footer`
+  padding: 2em 2em 0;
 `;

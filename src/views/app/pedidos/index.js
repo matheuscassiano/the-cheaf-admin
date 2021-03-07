@@ -44,6 +44,7 @@ import {
   OrderDetails,
   SmallOrderInfo,
   SmallOrderHeader,
+  SmallOrderFooter,
 } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
@@ -1330,7 +1331,7 @@ const SmallPaymentSide = () => (
         <Price>R$ 26.50</Price>
       </ItemRow>
     </OrderDetails>
-    <OrderList>
+    <SmallOrderFooter>
       <OrderContent>
         <span>Subtotal</span>
         <Price>R$ 265.00</Price>
@@ -1351,6 +1352,6 @@ const SmallPaymentSide = () => (
         <b>Total</b>
         <Price>R$ 365.50</Price>
       </OrderContent>
-    </OrderList>
+    </SmallOrderFooter>
   </SmallOrderInfo>
 );
