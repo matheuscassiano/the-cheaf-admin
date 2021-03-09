@@ -27,6 +27,10 @@ export const OrderInfo = styled.aside`
   border-right: 1px solid lightgray;
 `;
 
+export const SmallOrderInfo = styled(OrderInfo)`
+  padding: 0;
+`;
+
 export const TablesGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -40,4 +44,25 @@ export const TablesItem = styled.div`
   justify-self: center;
   border-radius: 100%;
   background-color: #08af24;
+`;
+
+export const ItemRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 0;
+`;
+
+export const OrderDetails = styled.div`
+  height: 33em;
+  overflow-y: auto;
+  padding: 0 2em;
+  border-bottom: 0.3px solid #979797;
+`;
+
+export const SmallOrderHeader = styled.header`
+  padding: 2em 0 1em 2em;
+`;
+
+export const SmallOrderFooter = styled.footer`
+  padding: 2em 2em 0;
 `;
