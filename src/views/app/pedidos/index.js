@@ -297,7 +297,7 @@ const BlankPage = () => {
         {modalPage === 'payment' && (
           <>
             <SmallPaymentSide />
-            <LargePaymentSide />
+            <LargePaymentSide setModalPage={setModalPage} />
           </>
         )}
         {modalPage === 'order-list' ? (
@@ -1203,7 +1203,7 @@ const SelectItems = ({ setSideModalAcrtive }) => (
   </>
 );
 
-const LargePaymentSide = () => (
+const LargePaymentSide = ({ setModalPage }) => (
   <div>
     <ModalSearch placeholder="Cupom de descontos" />
     <HorizontalScroll>
@@ -1225,7 +1225,7 @@ const LargePaymentSide = () => (
       </CategoryCardContainer>
     </HorizontalScroll>
     <FooterButtonContainer>
-      <FooterButton>
+      <FooterButton onClick={() => setModalPage('order-list')}>
         <svg
           width="24"
           height="24"
@@ -1243,7 +1243,7 @@ const LargePaymentSide = () => (
         </svg>
         <b>Voltar</b>
       </FooterButton>
-      <FooterButton>
+      <FooterButton onClick={() => setModalPage('order-list')}>
         <svg
           width="24"
           height="24"
