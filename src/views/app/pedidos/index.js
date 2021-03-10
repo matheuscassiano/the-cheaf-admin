@@ -49,6 +49,7 @@ import {
   FooterButton,
   FooterButtonContainer,
   SmallFooterButtonContainer,
+  CategoryCardContainer,
 } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
@@ -1206,10 +1207,22 @@ const LargePaymentSide = () => (
   <div>
     <ModalSearch placeholder="Cupom de descontos" />
     <HorizontalScroll>
-      <CategoryCard>span</CategoryCard>
-      <CategoryCard>span</CategoryCard>
-      <CategoryCard>span</CategoryCard>
-      <CategoryCard>span</CategoryCard>
+      <CategoryCardContainer>
+        <CategoryCard />
+        <p>Dinheiro</p>
+      </CategoryCardContainer>
+      <CategoryCardContainer>
+        <CategoryCard />
+        <p>Credito</p>
+      </CategoryCardContainer>
+      <CategoryCardContainer>
+        <CategoryCard />
+        <p>Debito</p>
+      </CategoryCardContainer>
+      <CategoryCardContainer>
+        <CategoryCard />
+        <p>PIX</p>
+      </CategoryCardContainer>
     </HorizontalScroll>
     <FooterButtonContainer>
       <FooterButton>

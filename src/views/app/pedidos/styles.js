@@ -99,3 +99,13 @@ export const FooterButton = styled.button`
     margin-right: 0.5em;
   }
 `;
+
+export const CategoryCardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 0.5em;
+  }
+`;
