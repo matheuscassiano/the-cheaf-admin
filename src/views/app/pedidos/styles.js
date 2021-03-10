@@ -119,5 +119,5 @@ export const OrderPaymentInfo = styled.div`
 `;
 
 export const LargePaymentSideContainer = styled.section`
-  padding-bottom: 25em;
+  padding-bottom: 26em;
 `;
