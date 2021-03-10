@@ -29,6 +29,7 @@ export const OrderInfo = styled.aside`
 
 export const SmallOrderInfo = styled(OrderInfo)`
   padding: 0;
+  position: relative;
 `;
 
 export const TablesGrid = styled.div`
@@ -65,4 +66,58 @@ export const SmallOrderHeader = styled.header`
 
 export const SmallOrderFooter = styled.footer`
   padding: 2em 2em 0;
+`;
+
+export const FooterButtonContainer = styled.footer`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+`;
+
+export const SmallFooterButtonContainer = styled(FooterButtonContainer)`
+  width: 87%;
+  justify-content: space-between;
+
+  button {
+    margin: 0;
+    margin-bottom: 1.5em;
+  }
+`;
+
+export const FooterButton = styled.button`
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 1.5em 1em;
+
+  svg {
+    margin-right: 0.5em;
+  }
+`;
+
+export const CategoryCardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    margin-top: 0.5em;
+  }
+`;
+
+export const OrderPaymentInfo = styled.div`
+  width: calc(100% - 4em);
+  height: 100%;
+  margin: 0 2em;
+  border-radius: 2em;
+  box-shadow: 0px 0px 3px rgba(45, 80, 120, 0.3);
+`;
+
+export const LargePaymentSideContainer = styled.section`
+  padding-bottom: 26em;
 `;
