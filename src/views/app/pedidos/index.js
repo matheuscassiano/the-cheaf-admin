@@ -50,6 +50,8 @@ import {
   FooterButtonContainer,
   SmallFooterButtonContainer,
   CategoryCardContainer,
+  OrderPaymentInfo,
+  LargePaymentSideContainer,
 } from './styles';
 import CategoryCard from '../../../styled-components/CategoryCard';
 import HorizontalScroll from '../../../styled-components/HorizontalScroll';
@@ -1204,7 +1206,7 @@ const SelectItems = ({ setSideModalAcrtive }) => (
 );
 
 const LargePaymentSide = ({ setModalPage }) => (
-  <div>
+  <LargePaymentSideContainer>
     <ModalSearch placeholder="Cupom de descontos" />
     <HorizontalScroll>
       <CategoryCardContainer>
@@ -1224,6 +1226,7 @@ const LargePaymentSide = ({ setModalPage }) => (
         <p>PIX</p>
       </CategoryCardContainer>
     </HorizontalScroll>
+    <OrderPaymentInfo />
     <FooterButtonContainer>
       <FooterButton onClick={() => setModalPage('order-list')}>
         <svg
@@ -1294,7 +1297,7 @@ const LargePaymentSide = ({ setModalPage }) => (
         <b>Finalizar e Imprimir</b>
       </FooterButton>
     </FooterButtonContainer>
-  </div>
+  </LargePaymentSideContainer>
 );
 
 const SmallPaymentSide = () => (

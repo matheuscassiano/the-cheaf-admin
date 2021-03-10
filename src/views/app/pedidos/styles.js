@@ -109,3 +109,15 @@ export const CategoryCardContainer = styled.div`
     margin-top: 0.5em;
   }
 `;
+
+export const OrderPaymentInfo = styled.div`
+  width: calc(100% - 4em);
+  height: 100%;
+  margin: 0 2em;
+  border-radius: 2em;
+  box-shadow: 0px 0px 3px rgba(45, 80, 120, 0.3);
+`;
+
+export const LargePaymentSideContainer = styled.section`
+  padding-bottom: 25em;
+`;
