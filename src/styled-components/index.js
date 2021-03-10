@@ -220,3 +220,9 @@ export const CashStatus = styled.header`
   font-weight: bold;
   background-color: ${({ color }) => color};
 `;
+
+export const SpaceBeetween = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;

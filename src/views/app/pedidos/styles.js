@@ -29,6 +29,7 @@ export const OrderInfo = styled.aside`
 
 export const SmallOrderInfo = styled(OrderInfo)`
   padding: 0;
+  position: relative;
 `;
 
 export const TablesGrid = styled.div`
@@ -65,4 +66,35 @@ export const SmallOrderHeader = styled.header`
 
 export const SmallOrderFooter = styled.footer`
   padding: 2em 2em 0;
+`;
+
+export const FooterButtonContainer = styled.footer`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+`;
+
+export const SmallFooterButtonContainer = styled(FooterButtonContainer)`
+  width: 87%;
+  justify-content: space-between;
+
+  button {
+    margin: 0;
+    margin-bottom: 1.5em;
+  }
+`;
+
+export const FooterButton = styled.button`
+  border: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 1.5em 1em;
+
+  svg {
+    margin-right: 0.8em;
+  }
 `;
