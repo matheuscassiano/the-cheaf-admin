@@ -91,10 +91,11 @@ export const FooterButton = styled.button`
   border: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: white;
   margin: 1.5em 1em;
 
   svg {
-    margin-right: 0.8em;
+    margin-right: 0.5em;
   }
 `;

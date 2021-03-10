@@ -20,19 +20,25 @@ html {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #666666;
-  border: 0px none #666666;
+  background: #D0D5DA;
+  border: 0px none #D0D5DA;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #666666;
+  background: #D0D5DA;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #D0D5DA;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
-  border: 0px none #666666;
-  border-radius: 50px;
+  border: 0px none #D0D5DA;
+  border-radius: 100%;
 }
 ::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
   background: transparent;
 }
 ::-webkit-scrollbar-corner {
