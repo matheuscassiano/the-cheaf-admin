@@ -16,6 +16,9 @@ const Pedidos = React.lazy(() =>
 const HistoricoDeCaixa = React.lazy(() =>
   import(/* webpackChunkName: "viwes-second-menu" */ './historico')
 );
+const Clientes = React.lazy(() =>
+  import(/* webpackChunkName: "viwes-second-menu" */ './clientes')
+);
 const Caixa = React.lazy(() =>
   import(/* webpackChunkName: "viwes-second-menu" */ './caixa')
 );
@@ -45,6 +48,10 @@ const App = ({ match }) => {
             <Route
               path={`${match.url}/historico`}
               render={(props) => <HistoricoDeCaixa {...props} />}
+            />
+            <Route
+              path={`${match.url}/clientes`}
+              render={(props) => <Clientes {...props} />}
             />
             <Route
               path={`${match.url}/caixa`}

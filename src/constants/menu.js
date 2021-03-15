@@ -48,6 +48,12 @@ const data = [
     to: `${adminRoot}/historico`,
   },
   {
+    id: 'clientes',
+    icon: 'iconsminds-receipt',
+    label: 'Clientes',
+    to: `${adminRoot}/clientes`,
+  },
+  {
     id: 'caixa',
     icon: 'iconsminds-receipt',
     label: 'Caixa',
