@@ -12,6 +12,7 @@ import {
   TD,
   TH,
   TR,
+  MidButton,
 } from '../../../styled-components';
 import LargeModal from '../../../styled-components/large-modal';
 import {
@@ -48,7 +49,7 @@ const Historic = () => {
           <Header>
             <Search placeholder="Pesquisar por descrição do pedido" />
             <div>
-              <HeaderButton>Adicionar cliente</HeaderButton>
+              <MidButton color="#08AF24">Adicionar cliente</MidButton>
               <HeaderButton>
                 <svg
                   width="40"
@@ -86,6 +87,42 @@ const Historic = () => {
               <TH>Celular</TH>
               <TH>Email</TH>
               <TH>Quantidade</TH>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
+            </TR>
+            <TR>
+              <TD>Pedro Herrique</TD>
+              <TD>(82) 9 9741-9452</TD>
+              <TD>pedroherrique@gmail.com</TD>
+              <TD>10</TD>
             </TR>
             <TR>
               <TD>Pedro Herrique</TD>
