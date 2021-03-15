@@ -51,3 +51,19 @@ export const ModalFooter = styled.footer`
   position: absolute;
   bottom: 1em;
 `;
+
+export const ClientCardContainer = styled.div`
+  width: 100%;
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 3em;
+`;
+
+export const ClientCard = styled.div`
+  width: 100%;
+  height: 13em;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+`;
